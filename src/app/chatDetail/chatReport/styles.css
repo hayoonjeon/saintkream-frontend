@@ -1,0 +1,45 @@
+.chat-report-container {
+  padding: 20px;
+  background-color: #fff;
+  font-family: Arial, sans-serif;
+  width: 100%;
+  max-width: 400px; /* 폭 조절 */
+  margin: 30px auto; /* 상하 여백과 중앙 정렬 */
+  border-radius: 10px;
+}
+
+.chat-report-header {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.chat-report-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.label {
+  font-size: 14px;
+  text-align: center;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.radio-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.radio-input {
+  margin-bottom: 5px; /* 라디오 버튼 간격 */
+}
+
+.chat-report-button {
+  margin-top: 20px; /* 버튼 위 여백 */
+  width: 80%; /* 버튼 폭 */
+}

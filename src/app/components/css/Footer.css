@@ -1,0 +1,192 @@
+/* Footer 전체 스타일 */
+
+.footer {
+  
+  background-color: #ffffff; /* 배경색을 흰색으로 설정 */
+  padding: 60px 0 30px;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+}
+
+.main-footer-container {
+  margin: 50px;
+  
+}
+
+/* 내부 컨테이너 */
+.footer .inner {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+/* 이용안내와 고객지원 세로로 배치 */
+.footer_menu {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  width: 48%;
+  align-items: center;
+}
+
+/* 고객센터 영역을 오른쪽에 배치 */
+.customer_service {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  min-width: 201px;
+  align-items: center;
+  margin-left: 35%; /* 오른쪽 정렬 */
+  margin-top: 30px;
+}
+
+
+
+/* 고객센터 및 메뉴 영역 */
+.service_area {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap; /* 필요시 줄바꿈 되도록 설정 */
+  width: 100%;
+  text-align: center;
+  margin-right: 35px;
+}
+
+/* 고객센터 버튼 영역 */
+.service_btn_box {
+  margin-top: 10px;
+}
+
+/* SNS 링크 */
+.footer_sns {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* 사업자 정보 */
+.business_info {
+  margin-top: 40px;
+  font-size: 14px;
+  color: #999;
+}
+
+.btn_business {
+  margin: 0;
+  padding: 0;
+}
+
+.business_info a {
+  color: #00A9FF;
+}
+
+/* 저작권 및 공지 */
+.notice_guarantee, .notice_area {
+  background-color: #ffffff; /* 배경색을 흰색으로 설정 */
+  text-align: center;
+  padding: 10px 0;
+}
+
+.notice_guarantee p, .notice_area p {
+  font-size: 14px;
+  color: #666;
+}
+
+.notice_area {
+  padding: 0;
+  margin: 0;
+}
+
+.copyright {
+  font-size: 12px;
+  color: #999;
+}
+
+.term_list {
+  display: flex;
+  padding-left: 0;
+  margin-bottom: 0px;
+}
+
+.term_item {
+  justify-content: flex-end;
+}
+
+/* 링크 스타일링 */
+.term_link {
+  text-decoration: none; /* 밑줄 제거 */
+  color: gray; /* 기본 글자 색상 */
+  font-weight: 500; /* 글자 굵기 조절 */
+  margin-right: 20px;
+}
+
+/* 마우스 올릴 때 색상 변화 */
+.term_link:hover {
+  color: black; /* 회색으로 변화 */
+}
+
+/* 링크 클릭 시나 방문 후에도 색상 유지 */
+.term_link:visited,
+.term_link:active {
+  color: gray; /* 동일한 색상 유지 */
+}
+
+.menu_box{
+  margin-top: 40px;
+}
+
+.menu_title {
+  margin-bottom: 20px;
+}
+.menu_list {
+  margin: 0;
+  padding: 0;
+}
+.menu_list li{
+  margin-bottom: 10px;
+  padding: 0;
+}
+/* 링크 스타일링 */
+.menu_link {
+  text-decoration: none; /* 밑줄 제거 */
+  color: gray; /* 기본 글자 색상 */
+  font-weight: 500; /* 글자 굵기 조절 */
+}
+
+/* 마우스 올릴 때 색상 변화 */
+.menu_link:hover {
+  color: black; /* 회색으로 변화 */
+}
+
+/* 링크 클릭 시나 방문 후에도 색상 유지 */
+.menu_link:visited,
+.menu_link:active {
+  color: gray; /* 동일한 색상 유지 */
+}
+
+/* 링크 스타일링 */
+.btn_solid_small {
+  text-decoration: none; /* 밑줄 제거 */
+  color: gray; /* 기본 글자 색상 */
+  font-weight: 500; /* 글자 굵기 조절 */
+}
+
+
+/* 링크 클릭 시나 방문 후에도 색상 유지 */
+.btn_solid_small:visited,
+.btn_solid_small:active {
+  color: gray; /* 동일한 색상 유지 */
+}
+
+/* 마우스 올릴 때 색상 변화 */
+.btn_solid_small:hover {
+  color: black; /* 회색으로 변화 */
+}
+
+.corporation_area {
+  min-width: 485px;
+}

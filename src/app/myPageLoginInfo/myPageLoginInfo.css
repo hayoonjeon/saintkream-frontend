@@ -1,0 +1,977 @@
+.myPageLoginInfo body, .myPageLoginInfo button, .myPageLoginInfo dd, .myPageLoginInfo div, .myPageLoginInfo dl, .myPageLoginInfo dt, .myPageLoginInfo fieldset, .myPageLoginInfo figcaption, .myPageLoginInfo figure, .myPageLoginInfo form, .myPageLoginInfo h1, .myPageLoginInfo h2, .myPageLoginInfo h3, .myPageLoginInfo h4, .myPageLoginInfo h5, .myPageLoginInfo h6, .myPageLoginInfo input, .myPageLoginInfo legend, .myPageLoginInfo li, .myPageLoginInfo ol, .myPageLoginInfo p, .myPageLoginInfo select, .myPageLoginInfo table, .myPageLoginInfo td, .myPageLoginInfo textarea, .myPageLoginInfo th, .myPageLoginInfo ul {
+    margin: 0;
+    padding: 0;
+}
+
+.myPageLoginInfo .container.my{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    padding: 40px 40px 100px;
+}
+
+.myPageLoginInfo .snb_area{
+    margin-right: 20px;
+    width: 180px;
+}
+
+.myPageLoginInfo .snb_main_title{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -.15px;
+    line-height: 29px;
+    padding-bottom: 30px;
+}
+
+.myPageLoginInfo a {
+    -webkit-tap-highlight-color: rgba(0,0,0,.1);
+    color: inherit
+}
+
+.myPageLoginInfo a,.myPageLoginInfo a:active, .myPageLoginInfo a:focus, .myPageLoginInfo a:hover {
+    -webkit-text-decoration: none;
+    text-decoration: none
+}
+
+.myPageLoginInfo p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.myPageLoginInfo *, .myPageLoginInfo :after, .myPageLoginInfo :before {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box
+}
+
+.myPageLoginInfo nav {
+    display: block;
+}
+
+.myPageLoginInfo body, .myPageLoginInfo button, .myPageLoginInfo input, .myPageLoginInfo select, .myPageLoginInfo table, .myPageLoginInfo textarea {
+    font-feature-settings: "frac" 0,"numr" 0;
+    color: #222;
+    font-family: Pretendard Variable, Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 
+    Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Apple SD Gothic Neo, 
+    Noto Sans KR, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.myPageLoginInfo div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.myPageLoginInfo .snb_title{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -.27px;
+    line-height: 22px;
+    margin-bottom: 12px;
+    vertical-align: top;
+}
+
+.myPageLoginInfo li, .myPageLoginInfo ol, .myPageLoginInfo ul {
+    list-style: none;
+}
+
+.myPageLoginInfo ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0px;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    unicode-bidi: isolate;
+}
+
+.myPageLoginInfo li {
+    display: list-item;
+    text-align: inherit;
+    unicode-bidi: isolate;
+}
+
+.myPageLoginInfo .menu_link{
+    color: rgba(34, 34, 34, .5);
+    font-size: 15px;
+    letter-spacing: -.15px;
+    line-height: 18px;
+}
+
+.myPageLoginInfo .menu_item + .menu_item{
+    margin-top: 12px;
+}
+
+.myPageLoginInfo .container.my .snb_area + div{
+    flex: 1;
+}
+
+.myPageLoginInfo .content_area{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+
+.myPageLoginInfo .my-page-content{
+    flex: 1;
+}
+
+.myPageLoginInfo .lg .user_membership, .myPageLoginInfo .md .user_membership{
+    flex-direction: row;
+    padding: 24px;
+}
+
+.myPageLoginInfo .user_membership{
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.myPageLoginInfo .lg .user_detail, .myPageLoginInfo .md .user_detail{
+    border-bottom: none;
+    padding: 0;
+}
+
+.myPageLoginInfo .user_detail{
+    border-bottom: 8px solid #f0f0f0;
+    display: flex;
+    flex: 1;
+    padding: 16px 24px;
+}
+
+.myPageLoginInfo .lg .user_thumb, .myPageLoginInfo .md .user_thumb{
+    height: 60px;
+    width: 60px;
+}
+
+.myPageLoginInfo .user_thumb{
+    border-radius: 50%;
+    flex-shrink: 0;
+    height: 90px;
+    margin-right: 12px;
+    position: relative;
+    width: 90px;
+}
+
+.myPageLoginInfo .user_thumb:after {
+    border: 1px solid rgba(34, 34, 34, .05);
+    border-radius: 50%;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.myPageLoginInfo .user_thumb .thumb_img{
+    border-radius: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+.myPageLoginInfo img, .myPageLoginInfo video {
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+    border: 0;
+    -moz-user-select: none !important;
+    user-select: none !important;
+    -webkit-user-select: none;
+    vertical-align: top;
+}
+
+.myPageLoginInfo img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.myPageLoginInfo .lg .user_info, .myPageLoginInfo .md .user_info{
+    align-items: center;
+    flex-direction: row;
+}
+
+.myPageLoginInfo .user_info{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.myPageLoginInfo .info_box{
+    flex: 1;
+}
+
+.myPageLoginInfo .user_info .email, .myPageLoginInfo .user_info .name{
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageLoginInfo .user_info .name{
+    color: #000;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -.27px;
+    line-height: 21px;
+}
+
+.myPageLoginInfo .user_info .email{
+    color: rgba(34, 34, 34, .5);
+    font-size: 14px;
+    letter-spacing: -.21px;
+    letter-spacing: -.05px;
+    line-height: 18px;
+}
+
+.myPageLoginInfo .lg .info-buttons, .myPageLoginInfo .md .info-buttons{
+    padding-top: 0;
+}
+
+.myPageLoginInfo .info-buttons{
+    padding-top: 12px;
+}
+
+.myPageLoginInfo .btn{
+    align-items: center;
+    background-color: #fff;
+    color: rgba(34, 34, 34, .8);
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.myPageLoginInfo .outlinegrey{
+    border: 1px solid #d3d3d3;
+    color: rgba(34, 34, 34, .8);
+}
+
+.myPageLoginInfo .small{
+    border-radius: 10px;
+    font-size: 12px;
+    height: 34px;
+    letter-spacing: -.06px;
+    padding: 0 14px;
+}
+
+.myPageLoginInfo .btn{
+    align-items: center;
+    background-color: #fff;
+    color: rgba(34, 34, 34, .8);
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.myPageLoginInfo .lg .shortcut-grid, .myPageLoginInfo .md .shortcut-grid{
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    row-gap: 20px;
+}
+
+.myPageLoginInfo .lg .shortcut-grid{
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.myPageLoginInfo .shortcut-grid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.myPageLoginInfo .my_home_title{
+    display: flex;
+    max-width: 100%;
+    padding-bottom: 0px;
+}
+
+.myPageLoginInfo .my_home_title .title{
+    font-size: 18px;
+    letter-spacing: -.27px;
+}
+
+.myPageLoginInfo .title{
+    font-size: 24px;
+    letter-spacing: -.36px;
+}
+
+.myPageLoginInfo .title{
+    color: rgba(34, 34, 34, .5);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -.07px;
+}
+
+.myPageLoginInfo .purchase_list_tab{
+    background-color: #fafafa;
+    border-radius: 12px;
+    display: flex;
+    width: 100%;
+}
+
+.myPageLoginInfo .tab_item{
+    display: flex;
+    flex: 1;
+    text-align: center;
+}
+
+.myPageLoginInfo .tab_item.tab_on {
+    border-bottom: 2px solid #000; /* 활성화된 탭 */
+    font-weight: bold;
+}
+
+.myPageLoginInfo .tab_link{
+    display: block;
+    flex: 1;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    position: relative;
+}
+
+@media (min-width: 961px) {
+    .myPageLoginInfo .tab_link{
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+}
+
+.myPageLoginInfo dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+@media (min-width: 961px) {
+    .myPageLoginInfo .tab_link .title{
+        font-size: 13px;
+    }
+}
+
+.myPageLoginInfo .tab_link .title{
+    color: rgba(34, 34, 34, .8);
+    font-size: 12px;
+}
+
+.myPageLoginInfo dt {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.myPageLoginInfo .tab_item.total .count{
+    color: #f15746;
+}
+
+@media (min-width: 961px) {
+    .myPageLoginInfo .tab_link .count{
+        font-size: 18px;
+    }
+}
+
+.myPageLoginInfo .tab_link .count{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -.09px;
+    line-height: 20px;
+    margin-top: 2px;
+}
+
+.myPageLoginInfo .tab_item:first-of-type .tab_link:before {
+    background-color: #ebebeb;
+    bottom: 18px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 1px;
+}
+
+.myPageLoginInfo .tab_link .hold{
+    color: #ff7500;
+    font-size: 12px;
+    letter-spacing: -.06px;
+    line-height: 19px;
+}
+
+.myPageLoginInfo .purchase_list_display_item{
+    align-items: center;
+    border-bottom: 1px solid #ebebeb;
+    cursor: pointer;
+    display: flex;
+    padding: 25px 25px 25px 0px;
+    position: relative;
+}
+
+.myPageLoginInfo .purchase_list_display_item .wish_delete{
+    position: absolute; /* 부모의 왼쪽 아래에 고정 */
+    right: 0; /* 왼쪽으로 정렬 */
+    bottom: 20px; /* 아래쪽으로 정렬 */
+    font-size: 12px; /* 적절한 크기로 조정 */
+    color: rgba(34, 34, 34, .8); /* 텍스트 색상 (선택 사항) */
+    padding: 0 3px; /* 텍스트 주위에 약간의 여백 추가 */
+    text-decoration: underline;
+    letter-spacing: -.06px;
+}
+
+.myPageLoginInfo .purchase_list_product{
+    display: flex;
+}
+
+.myPageLoginInfo .purchase_list_product .list_item_img_wrap{
+    position: relative;
+}
+
+.myPageLoginInfo .purchase_list_product .list_item_img_wrap .list_item_img{
+    border-radius: 12px;
+    height: 80px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 80px;
+}
+
+.myPageLoginInfo .purchase_list_product .list_item_title_wrap{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    width: 100%;
+    align-items: flex-start;
+    row-gap: 13px;
+}
+
+.myPageLoginInfo .purchase_list_product .list_item_title_wrap .list_item_price{
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageLoginInfo .purchase_list_product .list_item_title_wrap .list_item_title{
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: -10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageLoginInfo .purchase_list_product .list_item_title_wrap .list_item_description{
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: rgba(34, 34, 34, .5);
+    display: -webkit-box;
+    font-size: 14px;
+    font-weight: 450;
+    letter-spacing: -.21px;
+    letter-spacing: -.5px;
+    line-height: 19px;
+    margin-top: -5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageLoginInfo .list_item_status{
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    text-align: right;
+}
+
+.myPageLoginInfo .list_item_column p {
+    margin: 2.5px 0;
+}
+
+.myPageLoginInfo .list_item_status .column_secondary{
+    font-size: 13px;
+    letter-spacing: -.07px;
+}
+
+.myPageLoginInfo .list_item_status .list_item_column{
+    margin-left: 10px;
+    width: 134px;
+}
+
+.myPageLoginInfo .list_item_status .column_last{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.myPageLoginInfo .list_item_status .list_item_column{
+    margin-left: 10px;
+    width: 134px;
+}
+
+.myPageLoginInfo .list_item_status .column_last .last_title{
+    font-size: 14px;
+    letter-spacing: -.21px;
+}
+
+.myPageLoginInfo .list_item_status .column_last .last_description.action_named_action{
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+}
+
+.myPageLoginInfo .list_item_status .column_last .last_description{
+    font-size: 14px;
+    letter-spacing: -.06px;
+    overflow: hidden;
+    word-break: keep-all;
+}
+
+.myPageLoginInfo .purchase_list_tab.inventory .tab_item.total .count, .myPageLoginInfo .purchase_list_tab.sell .tab_item.total .count{
+    color: #31b46e;
+}
+
+.myPageLoginInfo .my_home_title .btn_more{
+    align-items: center;
+    display: inline-flex;
+    flex-shrink: 0;
+    margin-left: auto;
+    padding-left: 5px;
+}
+
+.myPageLoginInfo .interest_product{
+    margin: 0 -10px;
+}
+
+.myPageLoginInfo .product_item{
+    display: inline-block;
+    margin: 20px 0;
+    padding: 0 12px;
+    position: relative;
+    vertical-align: top;
+    width: 25%;
+}
+
+.myPageLoginInfo .product_item .item_inner{
+    background-color: #fff;
+    border-radius: 12px;
+    display: block;
+}
+
+.myPageLoginInfo .product{
+    border-radius: 8px;
+    overflow: hidden;
+    padding-top: 100%;
+    position: relative;
+}
+
+.myPageLoginInfo .detail_stock .product_img, .myPageLoginInfo .is_exclusive .product_img, .myPageLoginInfo .lucky_draw_column .product_img, .myPageLoginInfo .other_stock .product_img, .myPageLoginInfo .product_img, .myPageLoginInfo .stock .product_img{
+    height: auto;
+    width: 100%;
+}
+
+.myPageLoginInfo .product_img{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.myPageLoginInfo .picture{
+    border: none;
+    display: flex;
+}
+
+.myPageLoginInfo .image.full_width{
+    height: 100%;
+    width: 100%;
+}
+
+.myPageLoginInfo .image{
+    image-rendering: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.myPageLoginInfo .product_item .btn_wish{
+    bottom: 3px;
+    display: inline-flex;
+    padding: 5px;
+    position: absolute;
+    right: 3px;
+    z-index: 1;
+}
+
+.myPageLoginInfo .btn_wish{
+    display: flex;
+    height: inherit;
+}
+
+[role=button] {
+    cursor: pointer;
+}
+
+[class*=ico-] {
+    height: 24px;
+    width: 24px;
+}
+
+.myPageLoginInfo .product_item .info_box{
+    padding: 9px 4px 0;
+}
+
+.myPageLoginInfo .brand-text {
+    align-items: center;
+    color: #222;
+    display: inline-flex;
+    font-size: 18px;
+    font-weight: 700;
+    height: 17px;
+    line-height: 20px;
+    margin-bottom: 2px;
+}
+
+.myPageLoginInfo .brand-text > .brand-name {
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageLoginInfo .product_item .price{
+    padding-top: 12px;
+}
+
+.myPageLoginInfo .product_item .amount{
+    font-size: 0;
+    line-height: 0;
+}
+
+.myPageLoginInfo .product_item .discount_rate, .myPageLoginInfo .product_item .num, .myPageLoginInfo .product_item .won{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -.04px;
+    line-height: 17px;
+    vertical-align: top;
+}
+
+.myPageLoginInfo .display_paragraph.line_break_by_truncating_tail {
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageLoginInfo .text-lookup.bold{
+    font-weight: 700;
+}
+
+.myPageLoginInfo address, .myPageLoginInfo em {
+    font-style: normal;
+}
+
+.myPageLoginInfo .product_item .desc{
+    color: rgba(34, 34, 34, .5);
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 2px;
+}
+
+.myPageLoginInfo .content_title{
+    display: flex;
+}
+
+.myPageLoginInfo .purchase_list_tab.detail_tab{
+    background-color: #fff;
+    border-radius: 0;
+    margin-top: 20px;
+}
+
+.myPageLoginInfo .purchase_list_tab.detail_tab .tab_link{
+    border-bottom: 1px solid #ebebeb;
+    height: 80px;
+    padding-top: 12px;
+}
+
+.myPageLoginInfo .purchase_list_tab.detail_tab .tab_box{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.myPageLoginInfo .purchase_list_tab.detail_tab .tab_on .title{
+    color: #222;
+    font-weight: 700;
+}
+
+.myPageLoginInfo .purchase_list_tab.detail_tab .title{
+    color: rgba(34, 34, 34, .5);
+}
+
+.myPageLoginInfo .purchase_list_tab.detail_tab .tab_on .count{
+    color: #31b46e;
+}
+
+.myPageLoginInfo .purchase_list_tab.detail_tab .count{
+    font-size: 20px;
+    letter-spacing: -.1px;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+.myPageLoginInfo .title>h3{
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.myPageLoginInfo .main_title>h3{
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.myPageLoginInfo .before_purchase_confirmation{
+    font-size: 12px;
+    color: #BFBFBF;
+
+}
+
+.myPageLoginInfo .after_purchase_confirmation{
+    font-size: 12px;
+    color: #BFBFBF;
+}
+
+.myPageLoginInfo .content_title.border{
+    border-bottom: 3px solid #222;
+    padding-bottom: 16px;
+}
+
+.myPageLoginInfo .saved-chips-container{
+    padding: 12px 0;
+}
+
+.myPageLoginInfo .filter_chip_group.bubble{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 8px;
+    position: relative;
+}
+
+.myPageLoginInfo .blind, .myPageLoginInfo .u_skip {
+    clip: rect(0, 0, 0, 0) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+
+.myPageLoginInfo input, .myPageLoginInfo textarea {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    padding: 0;
+    resize: none;
+}
+
+.myPageLoginInfo .filter_button.line{
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 30px;
+    color: #4e4e4e;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    font-weight: 600;
+    height: 30px;
+    padding: 0 8px;
+}
+
+.myPageLoginInfo .filter_button.line.active{
+    background-color: #222;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: none;
+}
+
+.myPageLoginInfo .filter_button{
+    cursor: pointer;
+    position: relative;
+}
+
+.myPageLoginInfo button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    padding: 0;
+}
+
+.myPageLoginInfo .filter_button .text-group{
+    padding: 0 4px;
+}
+
+.myPageLoginInfo .filter_button .num{
+    display: none;
+}
+
+.myPageLoginInfo .content-header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.myPageLoginInfo .total-rows{
+    color: rgba(34, 34, 34, .8);
+    font-size: 13px;
+    letter-spacing: -.07px;
+}
+
+.myPageLoginInfo .profile_group.first{
+    padding-top: 0 !important;
+}
+
+.myPageLoginInfo .profile_info{
+    max-width: 480px;
+    padding-top: 38px;
+}
+
+.myPageLoginInfo .profile_group{
+    padding-top: 48px;
+}
+
+
+.myPageLoginInfo .lg .profile_group, .myPageLoginInfo .md .profile_group{
+    padding-top: 58px;
+}
+
+.myPageLoginInfo .group_title{
+    font-size: 18px;
+    letter-spacing: -.27px;
+}
+
+.myPageLoginInfo .unit{
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0 12px;
+    position: relative;
+}
+
+.myPageLoginInfo .unit_content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.myPageLoginInfo .desc{
+    flex: 1;
+    font-size: 16px;
+    letter-spacing: -.16px;
+    overflow: hidden;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.myPageLoginInfo .btn_modify{
+    position: absolute;
+    right: 0;
+}
+
+.myPageLoginInfo .my-profile__term-desc{
+    line-height: 1;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.myPageLoginInfo .my-profile__term-desc>span{
+    display: block;
+    margin-bottom: 2px;
+}
+
+.myPageLoginInfo .desc [type=button]{
+    color: #909090;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.myPageLoginInfo .base-switch{
+    background-color: var(--75b83bce);
+    border-radius: 15.5px;
+    cursor: pointer;
+    height: 31px;
+    position: relative;
+    width: 51px;
+}
+
+.myPageLoginInfo .base-switch.is-active{
+    background-color: var(--6d656928);
+}
+
+.myPageLoginInfo .base-switch .circle{
+    background-color: var(--30d0adec);
+    border-radius: 50%;
+    height: 27px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(2px, -50%);
+    width: 27px;
+}
+
+.myPageLoginInfo .base-switch.is-active .circle{
+    transform: translate(22px, -50%);
+}
+
+.myPageLoginInfo .base-switch .circle, .myPageLoginInfo .base-switch{
+    transition: all .3s cubic-bezier(.4,0,.2,1) !important;
+}
+
+.myPageLoginInfo .btn_withdrawal, .myPageLoginInfo .btn_withdrawal:hover {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+}
+
+.myPageLoginInfo .btn_withdrawal{
+    color: rgba(34, 34, 34, .5);
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: -.07px;
+    margin-top: 55px;
+    padding: 5px 0;
+}
+.input-error {
+    border: 2px solid red;
+    background-color: #ffe6e6;
+}

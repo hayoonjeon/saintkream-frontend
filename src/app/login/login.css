@@ -1,0 +1,23 @@
+.loginbackground_container {
+  display: flex;
+  justify-content: center; /* 수평 중앙 정렬 */
+  height: 1100px; /* 화면 전체 높이를 차지하게 설정 */
+  text-align: center;
+}
+
+.loginall_container {
+  display: flex; /* Flexbox 적용 */
+  flex-direction: column; /* 세로 방향 정렬 */
+  align-items: center; /* 내부 요소를 수평 중앙 정렬 */
+  padding: 80px 20px;
+}
+
+.paper_card {
+  width: 100%; /* 전체 너비 */
+  height: 870px;
+  max-width: 480px; /* 최대 너비 제한 */
+  padding: 40px;
+  border-radius: 10px;
+  margin: 10px 0;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}

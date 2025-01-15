@@ -1,0 +1,119 @@
+.myPageSideNav *{
+    margin: 0;
+    padding: 0;
+}
+
+.myPageSideNav .container.my{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    padding: 40px 40px 100px
+}
+
+.myPageSideNav .snb_area{
+    margin-right: 20px;
+    width: 180px;
+}
+
+.myPageSideNav .snb_main_title{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -.15px;
+    line-height: 29px;
+    padding-bottom: 30px;
+}
+
+.myPageSideNav a {
+    -webkit-tap-highlight-color: rgba(0,0,0,.1);
+    color: inherit
+}
+
+.myPageSideNav a,.myPageSideNav a:active, .myPageSideNav a:focus, .myPageSideNav a:hover {
+    -webkit-text-decoration: none;
+    text-decoration: none
+}
+
+.myPageSideNav p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.myPageSideNav *, .myPageSideNav :after, .myPageSideNav :before {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box
+}
+
+.myPageSideNav nav {
+    display: block;
+}
+
+.myPageSideNav body, .myPageSideNav button, .myPageSideNav input, .myPageSideNav select, .myPageSideNav table, .myPageSideNav textarea {
+    font-feature-settings: "frac" 0,"numr" 0 !important;
+    color: #222 !important;
+    font-family: Pretendard Variable, Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 
+    Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Apple SD Gothic Neo, 
+    Noto Sans KR, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.myPageSideNav div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.myPageSideNav .snb_title{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -.27px;
+    line-height: 22px;
+    margin-bottom: 12px;
+    vertical-align: top;
+}
+
+.myPageSideNav li, .myPageSideNav ol, .myPageSideNav ul {
+    list-style: none;
+}
+
+.myPageSideNav ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0px;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    unicode-bidi: isolate;
+}
+
+.myPageSideNav li {
+    display: list-item;
+    text-align: inherit;
+    unicode-bidi: isolate;
+}
+
+.myPageSideNav .menu_link{
+    color: rgba(34, 34, 34, .5);
+    font-size: 15px;
+    letter-spacing: -.15px;
+    line-height: 18px;
+}
+
+.myPageSideNav .menu_link.active{
+    color: #000;
+    font-weight: bold;
+    letter-spacing: -.15px;
+    line-height: 18px;
+}
+
+.myPageSideNav .menu_item + .menu_item{
+    margin-top: 12px;
+}
+
+.myPageSideNav .container.my .snb_area + div{
+    flex: 1;
+}

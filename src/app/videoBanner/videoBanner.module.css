@@ -1,0 +1,41 @@
+
+/* VideoBanner.module.css */
+.video {
+  width: 1280px;
+  height: 413px;
+
+}
+
+/* 900px 이하일 때 비디오 크기 조정 */
+@media (max-width: 906px) {
+  .video {
+    width: 500px; /* 원하는 크기로 설정 */
+  }
+}
+
+.videoSlide {
+  display: none;
+}
+
+.videoSlide.active {
+  display: block;
+}
+
+.pagination {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.pageDot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  margin: 0 5px;
+  background-color: #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.activeDot {
+  background-color: #333;
+}

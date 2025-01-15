@@ -1,0 +1,170 @@
+.title_container {
+  display: flex;
+}
+
+.close_button {
+  width: 22px;
+  height: 22px;
+  margin: 15px 0px 0px 15px;
+}
+
+.plus_button {
+  width: 18px;
+  height: 18px;
+  margin-top: 17px;
+}
+.minus_button {
+  width: 17px;
+  height: 2px;
+  margin-top: 25px;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 10px 0px 0px 15px;
+}
+
+h2 p {
+  font-size: 25px;
+  margin: 0;
+}
+
+.section_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.section_top p {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+
+.category_button {
+  height: 35px;
+  margin: 10px 10px 20px 10px;
+  display: inline-block;
+  padding: 7px 14px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
+  color: gray;
+  font-size: 14px;
+  font-family: Pretendard Variable;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.category_button:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.category_button.active {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+
+.category_button_sub {
+  margin: 0px 10px 0px 10px;
+  padding: 2px 7px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
+  color: gray;
+  font-size: 13px;
+  font-family: Pretendard Variable;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.category_button_sub:hover {
+  background-color: lightgray;
+  color: #fff;
+  border-color: lightgray;
+}
+.category_button_sub.active {
+  background-color: lightgray;
+  color: #fff;
+  border-color: lightgray;
+}
+
+.big_category {
+  display: flex;
+  height: 50px;
+}
+
+.big_category_container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; /* 넘칠 경우 다음 줄로 이동 */
+  gap: 0px;
+  margin-left: -20px;
+}
+
+.category-list {
+  height: auto;
+  opacity: 1;
+  transition: height 0.2s ease, opacity 0.2s ease; /* 부드러운 높이와 투명도 애니메이션 */
+}
+
+.category-list.collapsed {
+  height: 0;
+  opacity: 0; /* 숨길 때 높이를 0으로 설정하고 투명도를 0으로 */
+  padding: 0;
+  margin: 0;
+}
+
+/* FilterPrice.css */
+.price-range-slider {
+  margin: 0 25px; /* 슬라이더 양옆에 여백 추가 */
+  margin-top: 30px;
+  height: 200px;
+}
+
+@media (max-width:700px) {
+  
+}
+
+.range-container {
+  margin: 0 15px; /* 슬라이더 트랙에도 여백 추가 */
+}
+
+.range-container .react-range__track {
+  width: 100%;
+  background: #ccc !important;
+  height: 6px;
+}
+
+
+/* 활성화된 부분 스타일: 검정색 */
+.range-container .react-range__track--active {
+  background: #000; /* 활성화된 부분은 검정색으로 설정 */
+}
+
+
+.range-container .react-range__thumb {
+  height: 20px;
+  width: 20px;
+  border-radius: 70%;
+  background: white;
+  border: 1px solid black; /* 동그라미의 테두리 */
+}
+
+/* 가격 범위 텍스트 스타일 */
+.price-range-display {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  font-size: 12px;
+  color: gray;
+}
+

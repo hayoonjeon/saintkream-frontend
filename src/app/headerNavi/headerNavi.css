@@ -1,0 +1,75 @@
+/* 전체 네비게이션 영역 */
+.header_navigation .header_navi {
+  display: flex;
+  justify-content: center; /* 중앙 정렬 */
+  padding: 10px 20px; /* 상하좌우 여백 */
+  background-color: #fff; /* 연한 배경색 */  
+  box-sizing: border-box;
+}
+
+/* 네비게이션 내부 */
+.header_navigation .navi_inner {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* 내부 컨텐츠 넓이 */
+  height: 22px;
+}
+
+/* 네비게이션 리스트 */
+.header_navigation .navi_list {
+  display: flex;
+  list-style: none !important; /* 불릿 제거 */
+  margin: 0;
+  padding: 0;
+  gap: 35px; /* 항목 간 간격을 10px로 설정 */
+  height: 34px;
+}
+
+/* 네비게이션 아이템 */
+.header_navigation .navi_item {
+  font-size: 14px;
+  display: inline-block; /* 각 항목을 개별적인 박스로 설정 */
+  padding-bottom: 15px; /* 하단 여백을 추가하여 경계선과 구분 */
+  position: relative; /* 하단 밑줄을 절대 위치로 추가하기 위해 */
+}
+
+/* 링크 스타일 */
+.header_navigation .navi_link {
+  text-decoration: none !important; /* 밑줄 제거 */
+  color: #555; /* 기본 텍스트 색상 */
+  font-weight: 500;
+  transition: color 0.3s ease; /* 색상 전환 */
+}
+
+/* 링크 마우스 오버 효과 */
+.header_navigation .navi_item:hover .navi_link {
+  color: #222; /* 진한 텍스트 색상 */
+  font-weight: bold; /* 강조 */
+}
+
+/* 기본적으로 밑줄을 제거하고 가운데로 설정 */
+.header_navigation .navi_item::after {
+  content: ''; /* 가상의 요소 */
+  position: absolute;
+  bottom: 0; /* 하단에 위치 */
+  left: 50%; /* 가운데로 위치 */
+  transform: translateX(-50%); /* 정확히 가운데로 정렬 */
+  width: 0; /* 초기 상태는 0 */
+  height: 2px; /* 밑줄의 두께 */
+  background-color: transparent; /* 기본적으로 투명 */
+  transition: width 0.5s ease, background-color 0.5s ease; /* width와 배경 색상 변화 */
+  padding-left: 8px; /* 왼쪽 여유 공간 */
+  padding-right: 8px; /* 오른쪽 여유 공간 */
+}
+
+/* hover 시 밑줄이 가운데에서 양쪽으로 확장 */
+.header_navigation .navi_item:hover::after {
+  background-color: black; /* hover 시 밑줄 색상 변경 */
+  width: calc(100% + 20px); /* 전체 너비에서 8px씩 여유를 빼기 */
+}
+
+/* 선택된 항목에만 밑줄 유지 */
+.header_navigation .navi_item.selected::after {
+  background-color: black; /* 선택된 항목 밑줄 색상 */
+  width: calc(100% + 20px); /* 전체 너비에서 8px씩 여유를 빼기 */
+}

@@ -1,0 +1,482 @@
+/* 공통 스타일 */
+.order-detail {
+  font-family: Pretendard Variable;
+  margin: 20px auto;
+  max-width: 700px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+}
+
+.order-header {
+  display: flex;
+  /* Flexbox로 가로 배치 */
+  align-items: center;
+  /* 수직 중앙 정렬 */
+  gap: 8px;
+  /* 아이콘과 제목 사이 간격 */
+  border-bottom: 2px solid black;
+  /* 밑줄 설정 */
+
+}
+
+.order-header2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid lightgray;
+  /* 밑줄 설정 */
+  margin-bottom: 30px;
+
+}
+
+.icon-back {
+  font-size: 30px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+
+.order-title {
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.order-info2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.order-number {
+  color: gray;
+}
+
+.order-number2 {
+  color: black;
+}
+
+.order-date {
+  margin-top: 10px !important;
+  font-size: 17px;
+  color: black;
+  margin: 0;
+}
+
+h3 {
+  margin: 0;
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  margin: 0;
+  font-weight: bold;
+}
+
+.order-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.order-date {
+  color: #888;
+  margin-bottom: 20px;
+}
+
+.order-detail .payment-section {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+.order-selection2 {
+  border-bottom: 1px solid lightgray;
+  /* 부모 밑줄 유지 */
+
+
+}
+
+.order-selection2 .h2 {
+  font-size: 10px;
+
+}
+
+
+.sale-info {
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.transaction-info {
+  margin-bottom: 20px;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+/* 결제 정보  */
+.product-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: none;
+}
+
+section.payment-section .product-info {
+  border: none !important;
+  text-decoration: none !important;
+}
+
+.product-img {
+  width: 50px;
+  height: 50px;
+  border-radius: 10px;
+}
+
+.product-details {
+  flex-grow: 1;
+  margin-left: 10px;
+}
+
+.product-name {
+  margin: 0;
+}
+
+.product-price,
+.product-price * {
+  border: none !important;
+  border-bottom: none !important;
+  text-decoration: none !important;
+}
+
+.cancel-btn {
+  font-family: Pretendard Variable;
+  background: none;
+  border: 1px solid #ddd;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.sale-item-account {
+  display: grid;
+  direction: rtl;
+}
+
+
+/* 판매 정보  */
+.sale-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: self-start;
+  padding: 10px 20px;
+}
+
+.sale-row2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: self-end;
+  padding: 10px 20px;
+}
+
+
+.sale-column {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 10px;
+}
+
+
+
+.sale-row.bold {
+  font-weight: bold;
+}
+
+.vertical-bar {
+  width: 1px;
+  background-color: #ddd;
+  height: 50px;
+  margin: 0 10px;
+}
+
+span2 {
+  display: block;
+  margin: 2px 0;
+}
+
+
+
+.bold {
+  font-weight: bold;
+}
+
+/* 거래 정보 섹션 */
+.transaction-details p {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+  margin: 5px 0;
+}
+
+.transaction-details strong {
+  min-width: 100px;
+}
+
+.register-btn {
+  font-family: Pretendard Variable;
+  background: none;
+  color: black;
+  border: none;
+  border-bottom: 1px solid black;
+  cursor: pointer;
+  border-radius: 0;
+  font-size: 16px;
+  padding : 0px;
+
+}
+
+.register-btn2 {
+  font-family: Pretendard Variable;
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+
+.transaction-date {
+  color: #888;
+  font-size: 12px;
+}
+
+
+/* 버튼 */
+.action-buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.chat-btn {
+  font-family: Pretendard Variable;
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* 모달 오버레이 (배경) */
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  /* 어두운 배경 */
+  display: flex;
+  justify-content: center;
+  /* 가운데 정렬 */
+  align-items: center;
+  z-index: 1000;
+  /* 다른 요소 위에 표시 */
+}
+
+/* 모달 내용 */
+.modal-content {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  text-align: center;
+}
+
+/* 모달 닫기 버튼 */
+.modal-close {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* 모달 입력 폼 */
+.modal-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.modal-form label {
+  text-align: left;
+  font-weight: bold;
+}
+
+.modal-form select,
+.modal-form input {
+  border: none;
+  /* 기본 테두리 제거 */
+  border-bottom: 1px solid #ddd;
+  /* 밑줄 스타일 */
+  outline: none;
+  /* 클릭 시 테두리 제거 */
+  background: none;
+  /* 배경 제거 */
+  padding: 8px 0;
+  /* 상단과 하단 여백 */
+  font-size: 14px;
+  /* 글자 크기 */
+  width: 100%;
+  /* 전체 너비 */
+  box-sizing: border-box;
+  /* 패딩 포함 너비 */
+  transition: border-bottom 0.3s;
+  /* 부드러운 효과 */
+}
+
+
+/* 모달 등록 버튼 */
+.modal-submit {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-submit:hover {
+  background-color: #444;
+}
+
+
+
+/* 모달 오버레이2 (배경) */
+.modal-overlay2 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  /* 어두운 배경 */
+  display: flex;
+  justify-content: center;
+  /* 가운데 정렬 */
+  align-items: center;
+  z-index: 1000;
+  /* 다른 요소 위에 표시 */
+}
+
+/* 모달 내용 */
+.modal-content2 {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+  position: relative;
+  text-align: center;
+}
+
+/* 모달 닫기 버튼 */
+.modal-close2 {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+/* 모달 입력 폼 */
+.modal-form2 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.modal-form label {
+  text-align: left;
+  font-weight: bold;
+}
+
+.modal-form2 select,
+.modal-form2 input {
+  border: none;
+  /* 기본 테두리 제거 */
+  border-bottom: 1px solid #ddd;
+  /* 밑줄 스타일 */
+  outline: none;
+  /* 클릭 시 테두리 제거 */
+  background: none;
+  /* 배경 제거 */
+  padding: 8px 0;
+  /* 상단과 하단 여백 */
+  font-size: 14px;
+  /* 글자 크기 */
+  width: 100%;
+  /* 전체 너비 */
+  box-sizing: border-box;
+  /* 패딩 포함 너비 */
+  transition: border-bottom 0.3s;
+  /* 부드러운 효과 */
+}
+
+
+/* 모달 등록 버튼 */
+.modal-submit2 {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  margin-top: 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.modal-submit2:hover {
+  background-color: #444;
+}
+
+
+.modal-form3 {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+  text-align: left;
+  font-weight: bold;
+}

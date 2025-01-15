@@ -1,0 +1,76 @@
+.background_container {
+  display: flex;
+  justify-content: center; /* 수평 중앙 정렬 */
+  align-items: center; /* 수직 중앙 정렬 */
+  height: 700px; /* 화면 전체 높이를 차지하게 설정 */
+  text-align: center;
+}
+.container {
+  padding: 50px 20px;
+  width: 1280px;
+}
+.paper_card {
+  width: 480px;
+  height: 610px;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 10px 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+  margin-left: 31%;
+}
+.title {
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 24px;
+}
+
+
+.separator {
+  border: none;
+  border-top: 3px solid #000;
+  margin: 10px auto 20px;
+  width: 280px;
+}
+
+.description {
+  color: #555;
+  margin-bottom: 30px;
+}
+
+.form {
+  display: inline-block;
+  text-align: left;
+  width: 300px;
+}
+
+.label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.textField {
+  margin-bottom: 20px;
+}
+
+.textFieldEmail {
+  margin-bottom: 30px;
+}
+
+.button {
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.buttonEnabled {
+  background-color: #000;
+  color: white;
+}
+
+.buttonDisabled {
+  background-color: lightgray;
+  color: white;
+}

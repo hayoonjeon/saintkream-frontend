@@ -1,0 +1,358 @@
+/* ProductPage.css */
+
+/* 이미지 넘기는 css */
+.product-page .image-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.product-page .gallery-item {
+  position: relative;
+}
+
+.product-page .gallery-thumbnail {
+  width: 80px;
+  height: 80px;
+  border-radius: 5px;
+  object-fit: cover;
+  cursor: pointer;
+}
+
+.product-page .image-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 7; /* 모달이 항상 위로 올라오도록 설정 */
+}
+
+.product-page .modal-overlay {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: transparent;
+  cursor: pointer;
+  z-index: 6;
+}
+.product-page .modal-content {
+  position: relative;
+  z-index: 5;
+  display: flex;
+  align-items: center;
+}
+
+.product-page .modal-image {
+  max-width: 90%;
+  max-height: 90%;
+  border-radius: 10px;
+}
+.product-page .prev-button,
+.product-page .next-button {
+  background: white;
+  border: none;
+  padding: 10px 15px;
+  margin: 0 10px;
+  font-size: 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  z-index: 7; /* 버튼도 모달 위에 보이도록 설정 */
+  pointer-events: auto;
+}
+.product-page .prev-button:hover,
+.product-page .next-button:hover {
+  background: lightgray;
+}
+
+
+.product-page .delete-button {
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(255, 0, 0, 0.7);
+  border: none;
+  color: white;
+  font-size: 12px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.product-page .delete-button:hover {
+  background: red;
+}
+
+
+/*이미지 넘어가는 곳  */
+
+
+
+.product-page {
+  font-family: Arial, sans-serif;
+  max-width: 700px;
+  max-height: 85%; /* 위아래 크기를 조금 줄임 */
+  margin: 100px auto; /* 위아래 여백을 줄임 */
+  padding: 70px; /* 내부 여백을 줄임 */
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.product-page .image-upload {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.product-page .uploaded-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 10px;
+  object-fit: cover;
+}
+
+.product-page .upload-button {
+  width: 150px;
+  height: 150px;
+  border: 3px dashed lightgray;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  margin-left: 0; /* 이동 위치 조정 */
+}
+
+.product-page .camera-icon {
+  font-size: 24px;
+}
+
+.product-page .add-icon {
+  font-size: 18px;
+}
+.product-page .category-drop{
+  display: flex; /* 버튼을 가로로 배치 */
+  justify-content: space-between; /* 양옆으로 배치 */
+  margin-bottom: 25px;
+  position: relative;
+  height: 39px;
+  margin-bottom: 25px;
+  z-index: 7;
+}
+.product-page .category-drop button {
+  width: 48%;
+  padding: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 7px;
+  color: rgb(100, 100, 100);
+  z-index: 7;
+}
+
+.product-page .category-drop button:hover,::after {
+  background-color: #000000;
+  /* border: 1px solid #000000; */
+  color: white;
+ 
+}
+
+.product-page .active{
+  font-size: 14px;
+  box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1); /* 오른쪽과 아래쪽에 그림자 추가 */
+
+}
+
+.product-page .product-name,
+.product-page .price {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  height: 40px;
+}
+
+.product-page .category-drop {
+  position: relative;
+  margin-bottom: 27px;
+  width: 100px;
+}
+
+
+.product-page .category-drop .drop_down,
+.product-page .category-drop .drop_down2 {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: white;
+  z-index: 7;
+}
+
+.product-page .category-drop .drop_down2 {
+  left: 124px;
+}
+
+.product-page .category-drop ul.active {
+  display: block;
+}
+
+.product-page .category-drop .drop_list {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+
+.product-page .category-drop .drop_list2 {
+  padding: 8px 10px;
+  cursor: pointer;
+}
+.product-page .category-drop .drop_list:hover,
+.product-page .category-drop .drop_list2:hover {
+  background-color: #f0f0f0;
+}
+
+.product-page .product-explain {
+  width: 558px;
+  height: 100px;
+  padding: 10px;
+  margin-bottom: 25px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  resize: none;
+}
+
+.product-page .location {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.product-page .location input {
+  width: 76%;
+  padding: 10px 0;
+  border: none;
+  border-bottom: 2px solid #ccc;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.product-page .postal-info {
+  width: 20%;
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+  text-align: center;
+  margin-right: 0px;
+}
+
+.product-page .postal-info:hover {
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  background-color: lightgray;
+  cursor: pointer;
+  color: white;
+}
+
+.product-page .trade-check label {
+  display: block;
+  margin-bottom: 19px;
+  text-align: left;
+}
+
+.product-page .trade-check input[type="checkbox"] {
+  display: none;
+}
+
+.product-page .trade-check input[type="checkbox"] + span {
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  border: 2px solid #ccc;
+  border-radius: 50%;
+  position: relative;
+  vertical-align: middle;
+  margin-right: 10px;
+  cursor: pointer;
+  background-color: white;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.product-page .trade-check input[type="checkbox"]:checked + span {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.product-page .trade-check input[type="checkbox"]:checked + span::after {
+  content: "";
+  width: 6px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) rotate(45deg);
+}
+
+.product-page .trade-check svg {
+  width: 20px;
+}
+
+.product-page .label_txt {
+  margin-left: 20px;
+}
+
+.product-page .register-button {
+  width: 100%;
+  padding: 15px;
+  background-color: lightgray;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.product-page .register-button:hover {
+  background-color: black;
+}
+.product-page .button-container {
+  width: 100px;
+  display: flex; /* 버튼을 나란히 배치 */
+  gap: 20px; /* 버튼 사이 간격 */
+  margin-bottom: 25px; /* 버튼 하단 여백 */
+}
+.product-page .big_category_btn,
+.product-page .small_category_btn {
+  padding: 20px 50px !important;
+  white-space: nowrap;
+  width: auto;
+  margin-right: 20px !important;
+  display: flex; /* 플렉스 박스를 사용해 중앙 정렬 */
+  align-items: center; /* 수직 정렬 */
+  justify-content: center; /* 수평 정렬 */
+  text-align: center; /* 텍스트 중앙 정렬 */
+  width: auto; /* 너비를 텍스트 크기에 맞춤 */
+  height: 40px; /* 버튼 높이 설정 */
+  cursor: pointer; /* 마우스 커서 설정 */
+  border-radius: 10px !important; /* 둥근 테두리 */
+}

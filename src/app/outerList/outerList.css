@@ -1,0 +1,24 @@
+.main_list_container {
+  margin-top: 30px !important;
+  margin-bottom: 150px;
+  width: 1280px;
+  border: 1px solid #fff;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* 최소 200px, 최대 동일한 너비 */
+  gap: 16px; /* 카드 간의 간격 */
+  justify-content: space-between; /* 카드 간격 균등 배분 */
+}
+.main_list_container p {
+  grid-column: 1 / -1; /* 그리드에서 전체 열 차지 */
+  margin: 0 auto; /* 수평 중앙 정렬 */
+  color: gray; /* 선택 사항: 텍스트 색상 설정 */
+}
+@media (max-width: 660px) {
+  .main_list_container {
+    
+    gap: 10px;
+    grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); /* 최소 200px, 최대 동일한 너비 */
+    
+    
+  }
+}

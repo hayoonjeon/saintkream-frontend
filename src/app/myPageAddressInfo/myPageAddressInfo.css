@@ -1,0 +1,1334 @@
+.myPageAddressInfo body, .myPageAddressInfo button, .myPageAddressInfo dd, .myPageAddressInfo div, .myPageAddressInfo dl, .myPageAddressInfo dt, .myPageAddressInfo fieldset, .myPageAddressInfo figcaption, .myPageAddressInfo figure, .myPageAddressInfo form, .myPageAddressInfo h1, .myPageAddressInfo h2, .myPageAddressInfo h3, .myPageAddressInfo h4, .myPageAddressInfo h5, .myPageAddressInfo h6, .myPageAddressInfo input, .myPageAddressInfo legend, .myPageAddressInfo li, .myPageAddressInfo ol, .myPageAddressInfo p, .myPageAddressInfo select, .myPageAddressInfo table, .myPageAddressInfo td, .myPageAddressInfo textarea, .myPageAddressInfo th, .myPageAddressInfo ul {
+    margin: 0;
+    padding: 0;
+}
+
+.myPageAddressInfo .container.my{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    padding: 40px 40px 100px;
+}
+
+.myPageAddressInfo .snb_area{
+    margin-right: 20px;
+    width: 180px;
+}
+
+.myPageAddressInfo .snb_main_title{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -.15px;
+    line-height: 29px;
+    padding-bottom: 30px;
+}
+
+.myPageAddressInfo a {
+    -webkit-tap-highlight-color: rgba(0,0,0,.1);
+    color: inherit
+}
+
+.myPageAddressInfo a,.myPageAddressInfo a:active, .myPageAddressInfo a:focus, .myPageAddressInfo a:hover {
+    -webkit-text-decoration: none;
+    text-decoration: none
+}
+
+.myPageAddressInfo p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.myPageAddressInfo *, .myPageAddressInfo :after, .myPageAddressInfo :before {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box
+}
+
+.myPageAddressInfo nav {
+    display: block;
+}
+
+.myPageAddressInfo body, .myPageAddressInfo button, .myPageAddressInfo input, .myPageAddressInfo select, .myPageAddressInfo table, .myPageAddressInfo textarea {
+    font-feature-settings: "frac" 0,"numr" 0;
+    color: #222;
+    font-family: Pretendard Variable, Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 
+    Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Apple SD Gothic Neo, 
+    Noto Sans KR, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.myPageAddressInfo div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.myPageAddressInfo .snb_title{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -.27px;
+    line-height: 22px;
+    margin-bottom: 12px;
+    vertical-align: top;
+}
+
+.myPageAddressInfo li, .myPageAddressInfo ol, .myPageAddressInfo ul {
+    list-style: none;
+}
+
+.myPageAddressInfo ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0px;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    unicode-bidi: isolate;
+}
+
+.myPageAddressInfo li {
+    display: list-item;
+    text-align: inherit;
+    unicode-bidi: isolate;
+}
+
+.myPageAddressInfo .menu_link{
+    color: rgba(34, 34, 34, .5);
+    font-size: 15px;
+    letter-spacing: -.15px;
+    line-height: 18px;
+}
+
+.myPageAddressInfo .menu_item + .menu_item{
+    margin-top: 12px;
+}
+
+.myPageAddressInfo .container.my .snb_area + div{
+    flex: 1;
+}
+
+.myPageAddressInfo .content_area{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+
+.myPageAddressInfo .my-page-content{
+    flex: 1;
+}
+
+.myPageAddressInfo .lg .user_membership, .myPageAddressInfo .md .user_membership{
+    flex-direction: row;
+    padding: 24px;
+}
+
+.myPageAddressInfo .user_membership{
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.myPageAddressInfo .lg .user_detail, .myPageAddressInfo .md .user_detail{
+    border-bottom: none;
+    padding: 0;
+}
+
+.myPageAddressInfo .user_detail{
+    border-bottom: 8px solid #f0f0f0;
+    display: flex;
+    flex: 1;
+    padding: 16px 24px;
+}
+
+.myPageAddressInfo .lg .user_thumb, .myPageAddressInfo .md .user_thumb{
+    height: 60px;
+    width: 60px;
+}
+
+.myPageAddressInfo .user_thumb{
+    border-radius: 50%;
+    flex-shrink: 0;
+    height: 90px;
+    margin-right: 12px;
+    position: relative;
+    width: 90px;
+}
+
+.myPageAddressInfo .user_thumb:after {
+    border: 1px solid rgba(34, 34, 34, .05);
+    border-radius: 50%;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.myPageAddressInfo .user_thumb .thumb_img{
+    border-radius: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+.myPageAddressInfo img, .myPageAddressInfo video {
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+    border: 0;
+    -moz-user-select: none !important;
+    user-select: none !important;
+    -webkit-user-select: none;
+    vertical-align: top;
+}
+
+.myPageAddressInfo img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.myPageAddressInfo .lg .user_info, .myPageAddressInfo .md .user_info{
+    align-items: center;
+    flex-direction: row;
+}
+
+.myPageAddressInfo .user_info{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.myPageAddressInfo .info_box{
+    flex: 1;
+}
+
+.myPageAddressInfo .user_info .email, .myPageAddressInfo .user_info .name{
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageAddressInfo .user_info .name{
+    color: #000;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -.27px;
+    line-height: 21px;
+}
+
+.myPageAddressInfo .user_info .email{
+    color: rgba(34, 34, 34, .5);
+    font-size: 14px;
+    letter-spacing: -.21px;
+    letter-spacing: -.05px;
+    line-height: 18px;
+}
+
+.myPageAddressInfo .lg .info-buttons, .myPageAddressInfo .md .info-buttons{
+    padding-top: 0;
+}
+
+.myPageAddressInfo .info-buttons{
+    padding-top: 12px;
+}
+
+.myPageAddressInfo .outlinegrey{
+    border: 1px solid #d3d3d3;
+    color: rgba(34, 34, 34, .8);
+}
+
+.myPageAddressInfo .small{
+    border-radius: 10px;
+    font-size: 12px;
+    height: 34px;
+    letter-spacing: -.06px;
+    padding: 0 14px;
+}
+
+.myPageAddressInfo .btn{
+    align-items: center;
+    background-color: #fff;
+    color: rgba(34, 34, 34, .8);
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.myPageAddressInfo .btn_input{
+    align-items: center;
+    background-color: #fff;
+    color: rgba(34, 34, 34, .8);
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.myPageAddressInfo .lg .shortcut-grid, .myPageAddressInfo .md .shortcut-grid{
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    row-gap: 20px;
+}
+
+.myPageAddressInfo .lg .shortcut-grid{
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.myPageAddressInfo .shortcut-grid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.myPageAddressInfo .my_home_title{
+    display: flex;
+    max-width: 100%;
+    padding-bottom: 0px;
+}
+
+.myPageAddressInfo .my_home_title .title{
+    font-size: 18px;
+    letter-spacing: -.27px;
+}
+
+.myPageAddressInfo .title{
+    font-size: 24px;
+    letter-spacing: -.36px;
+}
+
+.myPageAddressInfo .title{
+    color: rgba(34, 34, 34, .5);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -.07px;
+}
+
+.myPageAddressInfo .purchase_list_tab{
+    background-color: #fafafa;
+    border-radius: 12px;
+    display: flex;
+    width: 100%;
+}
+
+.myPageAddressInfo .tab_item{
+    display: flex;
+    flex: 1;
+    text-align: center;
+}
+
+.myPageAddressInfo .tab_item.tab_on {
+    border-bottom: 2px solid #000; /* 활성화된 탭 */
+    font-weight: bold;
+}
+
+.myPageAddressInfo .tab_link{
+    display: block;
+    flex: 1;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    position: relative;
+}
+
+@media (min-width: 961px) {
+    .myPageAddressInfo .tab_link{
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+}
+
+.myPageAddressInfo dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+@media (min-width: 961px) {
+    .myPageAddressInfo .tab_link .title{
+        font-size: 13px;
+    }
+}
+
+.myPageAddressInfo .tab_link .title{
+    color: rgba(34, 34, 34, .8);
+    font-size: 12px;
+}
+
+.myPageAddressInfo dt {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.myPageAddressInfo .tab_item.total .count{
+    color: #f15746;
+}
+
+@media (min-width: 961px) {
+    .myPageAddressInfo .tab_link .count{
+        font-size: 18px;
+    }
+}
+
+.myPageAddressInfo .tab_link .count{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -.09px;
+    line-height: 20px;
+    margin-top: 2px;
+}
+
+.myPageAddressInfo .tab_item:first-of-type .tab_link:before {
+    background-color: #ebebeb;
+    bottom: 18px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 1px;
+}
+
+.myPageAddressInfo .tab_link .hold{
+    color: #ff7500;
+    font-size: 12px;
+    letter-spacing: -.06px;
+    line-height: 19px;
+}
+
+.myPageAddressInfo .purchase_list_display_item{
+    align-items: center;
+    border-bottom: 1px solid #ebebeb;
+    cursor: pointer;
+    display: flex;
+    padding: 25px 25px 25px 0px;
+    position: relative;
+}
+
+.myPageAddressInfo .purchase_list_display_item .wish_delete{
+    position: absolute; /* 부모의 왼쪽 아래에 고정 */
+    right: 0; /* 왼쪽으로 정렬 */
+    bottom: 20px; /* 아래쪽으로 정렬 */
+    font-size: 12px; /* 적절한 크기로 조정 */
+    color: rgba(34, 34, 34, .8); /* 텍스트 색상 (선택 사항) */
+    padding: 0 3px; /* 텍스트 주위에 약간의 여백 추가 */
+    text-decoration: underline;
+    letter-spacing: -.06px;
+}
+
+.myPageAddressInfo .purchase_list_product{
+    display: flex;
+}
+
+.myPageAddressInfo .purchase_list_product .list_item_img_wrap{
+    position: relative;
+}
+
+.myPageAddressInfo .purchase_list_product .list_item_img_wrap .list_item_img{
+    border-radius: 12px;
+    height: 80px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 80px;
+}
+
+.myPageAddressInfo .purchase_list_product .list_item_title_wrap{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    width: 100%;
+    align-items: flex-start;
+    row-gap: 13px;
+}
+
+.myPageAddressInfo .purchase_list_product .list_item_title_wrap .list_item_price{
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageAddressInfo .purchase_list_product .list_item_title_wrap .list_item_title{
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: -10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageAddressInfo .purchase_list_product .list_item_title_wrap .list_item_description{
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: rgba(34, 34, 34, .5);
+    display: -webkit-box;
+    font-size: 14px;
+    font-weight: 450;
+    letter-spacing: -.21px;
+    letter-spacing: -.5px;
+    line-height: 19px;
+    margin-top: -5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageAddressInfo .list_item_status{
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    text-align: right;
+}
+
+.myPageAddressInfo .list_item_column p {
+    margin: 2.5px 0;
+}
+
+.myPageAddressInfo .list_item_status .column_secondary{
+    font-size: 13px;
+    letter-spacing: -.07px;
+}
+
+.myPageAddressInfo .list_item_status .list_item_column{
+    margin-left: 10px;
+    width: 134px;
+}
+
+.myPageAddressInfo .list_item_status .column_last{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.myPageAddressInfo .list_item_status .list_item_column{
+    margin-left: 10px;
+    width: 134px;
+}
+
+.myPageAddressInfo .list_item_status .column_last .last_title{
+    font-size: 14px;
+    letter-spacing: -.21px;
+}
+
+.myPageAddressInfo .list_item_status .column_last .last_description.action_named_action{
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+}
+
+.myPageAddressInfo .list_item_status .column_last .last_description{
+    font-size: 14px;
+    letter-spacing: -.06px;
+    overflow: hidden;
+    word-break: keep-all;
+}
+
+.myPageAddressInfo .purchase_list_tab.inventory .tab_item.total .count, .myPageAddressInfo .purchase_list_tab.sell .tab_item.total .count{
+    color: #31b46e;
+}
+
+.myPageAddressInfo .my_home_title .btn_more{
+    align-items: center;
+    display: inline-flex;
+    flex-shrink: 0;
+    margin-left: auto;
+    padding-left: 5px;
+}
+
+.myPageAddressInfo .interest_product{
+    margin: 0 -10px;
+}
+
+.myPageAddressInfo .product_item{
+    display: inline-block;
+    margin: 20px 0;
+    padding: 0 12px;
+    position: relative;
+    vertical-align: top;
+    width: 25%;
+}
+
+.myPageAddressInfo .product_item .item_inner{
+    background-color: #fff;
+    border-radius: 12px;
+    display: block;
+}
+
+.myPageAddressInfo .product{
+    border-radius: 8px;
+    overflow: hidden;
+    padding-top: 100%;
+    position: relative;
+}
+
+.myPageAddressInfo .detail_stock .product_img, .myPageAddressInfo .is_exclusive .product_img, .myPageAddressInfo .lucky_draw_column .product_img, .myPageAddressInfo .other_stock .product_img, .myPageAddressInfo .product_img, .myPageAddressInfo .stock .product_img{
+    height: auto;
+    width: 100%;
+}
+
+.myPageAddressInfo .product_img{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.myPageAddressInfo .picture{
+    border: none;
+    display: flex;
+}
+
+.myPageAddressInfo .image.full_width{
+    height: 100%;
+    width: 100%;
+}
+
+.myPageAddressInfo .image{
+    image-rendering: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.myPageAddressInfo .product_item .btn_wish{
+    bottom: 3px;
+    display: inline-flex;
+    padding: 5px;
+    position: absolute;
+    right: 3px;
+    z-index: 1;
+}
+
+.myPageAddressInfo .btn_wish{
+    display: flex;
+    height: inherit;
+}
+
+[role=button] {
+    cursor: pointer;
+}
+
+[class*=ico-] {
+    height: 24px;
+    width: 24px;
+}
+
+.myPageAddressInfo .product_item .info_box{
+    padding: 9px 4px 0;
+}
+
+.myPageAddressInfo .brand-text {
+    align-items: center;
+    color: #222;
+    display: inline-flex;
+    font-size: 18px;
+    font-weight: 700;
+    height: 17px;
+    line-height: 20px;
+    margin-bottom: 2px;
+}
+
+.myPageAddressInfo .brand-text > .brand-name {
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageAddressInfo .product_item .price{
+    padding-top: 12px;
+}
+
+.myPageAddressInfo .product_item .amount{
+    font-size: 0;
+    line-height: 0;
+}
+
+.myPageAddressInfo .product_item .discount_rate, .myPageAddressInfo .product_item .num, .myPageAddressInfo .product_item .won{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -.04px;
+    line-height: 17px;
+    vertical-align: top;
+}
+
+.myPageAddressInfo .display_paragraph.line_break_by_truncating_tail {
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageAddressInfo .text-lookup.bold{
+    font-weight: 700;
+}
+
+.myPageAddressInfo address, .myPageAddressInfo em {
+    font-style: normal;
+}
+
+.myPageAddressInfo .product_item .desc{
+    color: rgba(34, 34, 34, .5);
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 2px;
+}
+
+.myPageAddressInfo .content_title{
+    display: flex;
+}
+
+.myPageAddressInfo .purchase_list_tab.detail_tab{
+    background-color: #fff;
+    border-radius: 0;
+    margin-top: 20px;
+}
+
+.myPageAddressInfo .purchase_list_tab.detail_tab .tab_link{
+    border-bottom: 1px solid #ebebeb;
+    height: 80px;
+    padding-top: 12px;
+}
+
+.myPageAddressInfo .purchase_list_tab.detail_tab .tab_box{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.myPageAddressInfo .purchase_list_tab.detail_tab .tab_on .title{
+    color: #222;
+    font-weight: 700;
+}
+
+.myPageAddressInfo .purchase_list_tab.detail_tab .title{
+    color: rgba(34, 34, 34, .5);
+}
+
+.myPageAddressInfo .purchase_list_tab.detail_tab .tab_on .count{
+    color: #31b46e;
+}
+
+.myPageAddressInfo .purchase_list_tab.detail_tab .count{
+    font-size: 20px;
+    letter-spacing: -.1px;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+.myPageAddressInfo .title>h3{
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.myPageAddressInfo .main_title>h3{
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.myPageAddressInfo .before_purchase_confirmation{
+    font-size: 12px;
+    color: #BFBFBF;
+
+}
+
+.myPageAddressInfo .after_purchase_confirmation{
+    font-size: 12px;
+    color: #BFBFBF;
+}
+
+.myPageAddressInfo .content_title.border{
+    border-bottom: 3px solid #222;
+    padding-bottom: 16px;
+}
+
+.myPageAddressInfo .saved-chips-container{
+    padding: 12px 0;
+}
+
+.myPageAddressInfo .filter_chip_group.bubble{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 8px;
+    position: relative;
+}
+
+.myPageAddressInfo .blind, .myPageAddressInfo .u_skip {
+    clip: rect(0, 0, 0, 0) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+
+.myPageAddressInfo input, .myPageAddressInfo textarea {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    padding: 0;
+    resize: none;
+}
+
+.myPageAddressInfo .filter_button.line{
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 30px;
+    color: #4e4e4e;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    font-weight: 600;
+    height: 30px;
+    padding: 0 8px;
+}
+
+.myPageAddressInfo .filter_button.line.active{
+    background-color: #222;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: none;
+}
+
+.myPageAddressInfo .filter_button{
+    cursor: pointer;
+    position: relative;
+}
+
+.myPageAddressInfo button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    padding: 0;
+}
+
+.myPageAddressInfo .filter_button .text-group{
+    padding: 0 4px;
+}
+
+.myPageAddressInfo .filter_button .num{
+    display: none;
+}
+
+.myPageAddressInfo .content-header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.myPageAddressInfo .total-rows{
+    color: rgba(34, 34, 34, .8);
+    font-size: 13px;
+    letter-spacing: -.07px;
+}
+
+.myPageAddressInfo .profile_group.first{
+    padding-top: 0 !important;
+}
+
+.myPageAddressInfo .profile_info{
+    max-width: 480px;
+    padding-top: 38px;
+}
+
+.myPageAddressInfo .profile_group{
+    padding-top: 48px;
+}
+
+
+.myPageAddressInfo .lg .profile_group, .myPageAddressInfo .md .profile_group{
+    padding-top: 58px;
+}
+
+.myPageAddressInfo .group_title{
+    font-size: 18px;
+    letter-spacing: -.27px;
+}
+
+.myPageAddressInfo .unit{
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0 12px;
+    position: relative;
+}
+
+.myPageAddressInfo .unit_content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.myPageAddressInfo .desc{
+    flex: 1;
+    font-size: 16px;
+    letter-spacing: -.16px;
+    overflow: hidden;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.myPageAddressInfo .btn_modify{
+    position: absolute;
+    right: 0;
+}
+
+.myPageAddressInfo .my-profile__term-desc{
+    line-height: 1;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.myPageAddressInfo .my-profile__term-desc>span{
+    display: block;
+    margin-bottom: 2px;
+}
+
+.myPageAddressInfo .desc [type=button]{
+    color: #909090;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.myPageAddressInfo .base-switch{
+    background-color: var(--75b83bce);
+    border-radius: 15.5px;
+    cursor: pointer;
+    height: 31px;
+    position: relative;
+    width: 51px;
+}
+
+.myPageAddressInfo .base-switch.is-active{
+    background-color: var(--6d656928);
+}
+
+.myPageAddressInfo .base-switch .circle{
+    background-color: var(--30d0adec);
+    border-radius: 50%;
+    height: 27px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(2px, -50%);
+    width: 27px;
+}
+
+.myPageAddressInfo .base-switch.is-active .circle{
+    transform: translate(22px, -50%);
+}
+
+.myPageAddressInfo .base-switch .circle, .myPageAddressInfo .base-switch{
+    transition: all .3s cubic-bezier(.4,0,.2,1) !important;
+}
+
+.myPageAddressInfo .btn_withdrawal, .myPageAddressInfo .btn_withdrawal:hover {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+}
+
+.myPageAddressInfo .btn_withdrawal{
+    color: rgba(34, 34, 34, .5);
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: -.07px;
+    margin-top: 55px;
+    padding: 5px 0;
+}
+
+.myPageAddressInfo .lg .user_profile, .myPageAddressInfo .md .user_profile{
+    border-bottom: 1px solid #ebebeb;
+}
+
+.myPageAddressInfo .user_profile{
+    align-items: center;
+    background-color: #fff;
+    display: flex;
+    padding: 38px 0;
+}
+
+.myPageAddressInfo .profile_thumb{
+    border-radius: 100%;
+    flex: none;
+    height: 80px;
+    margin-right: 12px;
+    overflow: hidden;
+    width: 80px;
+}
+
+.myPageAddressInfo .lg .profile_thumb, .myPageAddressInfo .md .profile_thumb{
+    height: 90px;
+    width: 90px;
+}
+
+.myPageAddressInfo .profile_thumb .thumb_img{
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+.myPageAddressInfo .profile_detail .name{
+    color: #000;
+    font-size: 18px;
+    letter-spacing: -.27px;
+    line-height: 1.2222222222;
+}
+
+.myPageAddressInfo .profile_btn_box{
+    font-size: 0;
+    margin-top: 12px;
+}
+
+.myPageAddressInfo .profile_btn_box .btn+.btn{
+    margin-left: 8px;
+}
+
+.myPageAddressInfo .desc_modify{
+    padding-right: 58px;
+}
+
+.myPageAddressInfo .container.my .snb_area+div{
+    flex: 1;
+}
+
+.myPageAddressInfo .my_addressbook{
+    min-height: 315px;
+}
+
+.myPageAddressInfo .btn_box{
+    align-items: center;
+    display: flex;
+    flex-shrink: 0;
+    margin-left: auto;
+    padding-left: 30px;
+}
+
+.myPageAddressInfo .btn_box .btn{
+    align-items: center;
+    display: flex;
+    font-size: 14px;
+    letter-spacing: -.21px;
+    margin-right: -6px;
+    padding: 0 6px;
+}
+
+.myPageAddressInfo .btn_box .btn.btn_add {
+    border: 1px solid #222;
+    border-radius: 10px;
+    font-size: 12px;
+    height: 34px;
+    letter-spacing: -.06px;
+    line-height: 32px;
+    margin-right: 0;
+    padding: 0 14px;
+}
+
+.myPageAddressInfo .basic{
+    border-bottom: 2px solid #222;
+    padding: 30px 0 29px;
+}
+
+.myPageAddressInfo .my_item{
+    align-items: center;
+    display: flex;
+    position: relative;
+}
+
+.myPageAddressInfo .my_item .info_bind{
+    margin-right: 24px;
+}
+
+.myPageAddressInfo .address_info{
+    line-height: 17px;
+}
+
+.myPageAddressInfo .is_active .address_info .name{
+    font-weight: 700;
+}
+
+.myPageAddressInfo .address_info .name{
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -.15px;
+    line-height: 20px;
+    vertical-align: top;
+}
+
+.myPageAddressInfo .address_info .mark{
+    background-color: #f4f4f4;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: inline-block;
+    font-size: 12px;
+    letter-spacing: -.06px;
+    line-height: 14px;
+    margin-left: 4px;
+    margin-top: 0;
+    padding: 3px 6px;
+    vertical-align: top;
+}
+
+.myPageAddressInfo .address_info .phone{
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.myPageAddressInfo .address_info .phone .hyphen{
+    background-color: #000;
+    display: inline-flex;
+    height: 1px;
+    margin: 0px 2px 4px 4px;
+    width: 4px;
+}
+
+.myPageAddressInfo .address_info .address_box{
+    font-size: 14px;
+    letter-spacing: -.21px;
+    padding-top: 4px;
+}
+
+.myPageAddressInfo .basic .btn_bind{
+    margin-top: 12px;
+}
+
+.myPageAddressInfo .btn_bind{
+    margin-left: auto;
+}
+
+.myPageAddressInfo .btn_bind .btn{
+    padding-left: 11px;
+    padding-right: 12px;
+}
+
+.myPageAddressInfo .btn_bind .btn+.btn{
+    margin-left: 8px;
+}
+
+.myPageAddressInfo .other .my_item{
+    border-bottom: 1px solid #ebebeb;
+    padding: 17px 0 16px;
+}
+
+.myPageAddressInfo .layer{
+    bottom: 0;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    z-index: 1010;
+    text-align: start;
+    color: black;
+}
+
+.myPageAddressInfo .layer .layer-background{
+    background-color: rgba(34, 34, 34, .5);
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100%;
+}
+
+.myPageAddressInfo .layer_delivery .layer_container{
+    width: 520px;
+}
+
+.myPageAddressInfo .layer_container{
+    background-color: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 10px 0 rgba(0, 0, 0, .1);
+    left: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 448px;
+}
+
+.myPageAddressInfo .btn_layer_close{
+    cursor: pointer;
+    position: absolute;
+    right: 20px;
+    top: 14px;
+}
+
+.myPageAddressInfo .layer_header .title{
+    background-color: #fff;
+    color: #000;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -.27px;
+    letter-spacing: -.15px;
+    line-height: 22px;
+    min-height: 44px;
+    padding: 18px 50px;
+    text-align: center;
+}
+
+.myPageAddressInfo .layer_delivery .delivery_bind{
+    padding: 0 32px;
+}
+
+.myPageAddressInfo .layer_delivery .input_box.first {
+    padding-top: 0;
+}
+
+.myPageAddressInfo .layer_delivery .input_box{
+    padding-top: 16px;
+}
+
+.myPageAddressInfo .input_box{
+    padding: 10px 0 14px;
+    position: relative;
+}
+
+.myPageAddressInfo .input_title{
+    font-size: 13px;
+    letter-spacing: -.07px;
+    line-height: 18px;
+}
+
+.myPageAddressInfo .input_item{
+    position: relative;
+}
+
+.myPageAddressInfo .input_txt{
+    border-bottom: 1px solid #ebebeb;
+    font-size: 15px;
+    letter-spacing: -.15px;
+    line-height: 22px;
+    padding: 8px 0;
+    width: 100%;
+}
+
+.input_txt:focus {
+    border-bottom: 2px solid #222;
+}
+
+.myPageAddressInfo .input_error{
+    display: none;
+}
+
+.myPageAddressInfo .btn_input.btn_zipcode{
+    bottom: 8px;
+    position: absolute;
+    right: 0;
+}
+
+.myPageAddressInfo .outline{
+    border: 1px solid #d3d3d3;
+}
+
+.myPageAddressInfo .checkbox_item{
+    font-size: 0;
+    position: relative;
+}
+
+.myPageAddressInfo .delivery_check .checkbox_item.last{
+    margin-right: 0;
+}
+
+.myPageAddressInfo .delivery_check.checkbox_item{
+    float: left;
+    margin-right: 19px;
+}
+
+.myPageAddressInfo .checkbox_item .check_label{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.myPageAddressInfo .checkbox_item .label_txt{
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: -.07px;
+    line-height: 24px;
+    padding-left: 8px;
+    vertical-align: top;
+}
+
+.myPageAddressInfo .layer_delivery .layer_btn{
+    padding-top: 32px;
+}
+
+.myPageAddressInfo .layer_btn{
+    display: flex;
+    justify-content: center;
+    padding: 24px 32px 32px;
+}
+
+.myPageAddressInfo .layer_btn .btn_input{
+    width: 120px;
+}
+
+.myPageAddressInfo .medium{
+    height: 42px;
+    letter-spacing: -.14px;
+    padding: 0 18px;
+}
+
+.myPageAddressInfo .large.mobile, .myPageAddressInfo .medium{
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.myPageAddressInfo .solid{
+    background-color: #222;
+    color: #fff;
+    font-weight: 700;
+}
+
+.myPageAddressInfo .layer_btn .btn_input+.btn_input{
+    margin-left: 8px;
+}
+
+.myPageAddressInfo .solid.disabled, .myPageAddressInfo .solid:disabled {
+    background-color: rgba(34, 34, 34, .2);
+    color: #fff;
+    cursor: default;
+    font-weight: 400;
+}

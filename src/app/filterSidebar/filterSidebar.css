@@ -1,0 +1,161 @@
+.title_container {
+  display: flex;
+}
+
+.close_button {
+  width: 22px;
+  height: 22px;
+  margin: 15px 0px 0px 15px;
+}
+
+
+
+.plus_button {
+  width: 18px;
+  height: 18px;
+  margin-top: 17px;
+}
+.minus_button {
+  width: 17px;
+  height: 2px;
+  margin-top: 25px;
+}
+
+.title {
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  margin: 10px 0px 0px 15px;
+}
+
+h2 p {
+  font-size: 25px;
+  margin: 0;
+}
+
+.section_top {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 16px;
+}
+
+.section_top p {
+  font-size: 17px;
+  font-weight: 600;
+}
+
+
+.category_button {
+  height: 35px;
+  margin: 10px 10px 20px 10px;
+  display: inline-block;
+  padding: 7px 14px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
+  color: gray;
+  font-size: 14px;
+  font-family: Pretendard Variable;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+@media (max-width: 700px) {
+  .category_button {
+    height: 30px !important;
+    margin: 6px 6px 10px 6px !important;
+    display: inline-block;
+    padding: 4px 10px !important;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+    color: gray;
+    font-size: 14px;
+    font-family: Pretendard Variable;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+}
+
+.category_button:hover {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+.category_button.active {
+  background-color: #000;
+  color: #fff;
+  border-color: #000;
+}
+
+
+.category_button_sub {
+  margin: 0px 10px 0px 10px;
+  padding: 2px 7px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
+  color: gray;
+  font-size: 13px;
+  font-family: Pretendard Variable;
+  cursor: pointer;
+  transition: all 0.1s ease;
+}
+
+.category_button_sub:hover {
+  background-color: lightgray;
+  color: #fff;
+  border-color: lightgray;
+}
+.category_button_sub.active {
+  background-color: lightgray;
+  color: #fff;
+  border-color: lightgray;
+}
+
+.big_category {
+  display: flex;
+  height: 50px;
+}
+.small_category {
+  display: flex;
+  height: 50px;
+}
+
+.big_category_container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; /* 넘칠 경우 다음 줄로 이동 */
+  gap: 0px;
+  margin-left: -20px;
+}
+.small_category_container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap; /* 넘칠 경우 다음 줄로 이동 */
+  gap: 0px;
+  margin-left: -20px;
+}
+
+.category-list {
+  height: auto;
+  opacity: 1;
+  transition: height 0.2s ease, opacity 0.2s ease; /* 부드러운 높이와 투명도 애니메이션 */
+}
+
+.category-list.collapsed {
+  height: 0;
+  opacity: 0; /* 숨길 때 높이를 0으로 설정하고 투명도를 0으로 */
+  padding: 0;
+  margin: 0;
+}
+
+.exit_sidebar_btn{
+  all: unset;
+  color: gray; /* 기본 글자 색상 */
+  font-weight: 500; /* 글자 굵기 조절 */
+  cursor: pointer;
+}

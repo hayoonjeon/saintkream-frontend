@@ -1,0 +1,143 @@
+.chat-page {
+  top: 0;
+  right: -600px; /* 기본적으로 필터가 오른쪽 바깥에 위치 */
+  width: 600px !important; /* 채팅 페이지 너비 설정 */
+  height: 100% !important;
+  background: #ffffff !important; /* 배경색 설정 */
+  display: flex !important;
+  flex-direction: column !important;
+  transition: right 0.7s ease-in-out;
+  z-index: 90 !important;
+}
+
+.chat-page.open {
+  right: 0; /* 우측으로 슬라이드 */
+}
+
+
+.chat-header {
+  display: flex !important;
+  align-items: center !important;
+  padding: 16px !important;
+  background: #ffffff !important; /* 헤더 배경색 */
+  border-bottom: 1px solid #ebebeb !important; /* 헤더 하단 테두리 */
+}
+
+.chat-close-button {
+  border: none !important;
+  background: none !important;
+  cursor: pointer !important;
+  font-size: 16px !important;
+}
+
+.chat-close-button:hover {
+  all: unset;
+}
+
+.chat-list {
+  overflow-y: auto !important;
+}
+
+.chat-item {
+  display: flex !important;
+  align-items: left !important;
+  text-align: left !important;
+  padding: 12px 16px !important;
+  border:none !important;
+  background-color: #ffffff !important; 
+  border-bottom: none !important; /* 아이템 하단 테두리 */
+  border-bottom: 1px solid lightgray !important; /* 아이템 하단 테두리 */
+}
+.chat-item2 {
+  display: flex !important;
+  align-items: left !important;
+  text-align: left !important;
+  padding: 12px 16px !important;
+  border:none !important;
+  background-color: #ffffff !important; 
+  border-bottom: none !important; /* 아이템 하단 테두리 */
+
+}
+
+.chat-profile-photo {
+  width: 60px !important;
+  height: 60px !important;
+  border-radius: 50% !important;
+  overflow: hidden !important;
+  margin-right: 10px !important;
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+.chat-profile-photo img {
+  width: 100% !important;
+  height: 100% !important;
+  object-fit: cover !important;
+}
+
+.chat-details {
+  flex-grow: 1 !important;
+}
+
+.chat-name {
+  font-size: 15px !important;
+  font-weight: bold !important;
+  margin-top: 10px;
+}
+
+.chat-date {
+  font-size: 12px !important;
+  margin-left: 10px !important;
+  color: gray !important;
+}
+
+.chat-message {
+  font-size: 14px !important;
+  color: gray !important;
+  background-color: #fff !important;
+  margin-top: 10px !important;
+}
+/* 오버레이 */
+.chatoverlay2 {
+  position: fixed !important;
+  top: 0 !important;
+  left: 0 !important;
+  width: 100% !important;
+  height: 100% !important;
+  background: rgba(0, 0, 0, 0) ; /* 어두운 반투명 효과 */
+  transition: right 0.35s ease-in-out !important; /* 부드러운 애니메이션 */
+  z-index: 99; 
+}
+.chatDetail_sidebar {
+  position: fixed !important;
+  top: 0 !important;
+  right: -383px !important; /* 기본 위치: 화면 밖으로 숨김 */
+  width: 600px !important;
+  height: 100% !important;
+  background: #ffffff !important;
+  z-index: 100; /* 충분히 높은 z-index 값 설정 */
+  transition: right 0.35s ease; /* 부드러운 오른쪽 이동을 위한 트랜지션 */
+}
+.chat-list:hover {
+  background: rgba(0, 0, 0, 0.02) !important; /* 전체 chat-list에 적용 */
+}
+
+.chat-item:hover, .chat-item:hover * {
+  background: transparent !important; /* 내부 요소와 그 자식 요소에 대해 배경 투명 처리 */
+}
+
+
+.chatDetail_sidebar.open {
+  right: 0 !important; /* 화면 안으로 이동 */
+  background: #ffffff !important;
+}
+.close-button{
+  all: unset;
+  cursor: pointer;
+}
+.close_button {
+  width: 22px;
+  height: 22px;
+  margin: 15px 0px 0px 15px;
+  z-index: 10;
+}

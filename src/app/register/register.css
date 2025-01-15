@@ -1,0 +1,274 @@
+/* RegisterPage.css */
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures full viewport height */
+}
+
+.register-paper {
+  
+  width: 480px;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 100px 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.register-title {
+  margin-bottom: 30px;
+  margin-top: 0;
+  text-align: left;
+  font-weight: bold;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.register-label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.text-field {
+  flex: 1;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.text-field-phone {
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+}
+
+.action-button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  background-color: #f5f5f5;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.password-field {
+  padding: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  background-color: transparent;
+}
+
+.confirm-password-field {
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  background-color: transparent;
+}
+
+.password-error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.agreements-section {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.agreements-label {
+  font-weight: bold;
+  color: black;
+}
+
+.agreements-caption {
+  color: black;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.agreements-options {
+  margin-left: 35px;
+}
+
+.agreement-checkbox {
+  color: black;
+}
+
+.agreement-label {
+  color: black;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.policy-button {
+  font-size: 12px;
+  color: black;
+  text-decoration: underline;
+}
+
+.register-button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.register-button.disabled {
+  background-color: lightgray;
+  color: white;
+}
+/* RegisterPage.css */
+
+.register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures full viewport height */
+}
+
+.register-paper {
+  
+  width: 480px;
+  padding: 40px;
+  border-radius: 10px;
+  margin: 100px 0;
+  border-radius: 10px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.2);
+}
+
+.register-title {
+  margin-bottom: 30px;
+  margin-top: 0;
+  text-align: left;
+  font-weight: bold;
+}
+
+.register-form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.register-label {
+  margin-bottom: 5px;
+  font-size: 14px;
+  color: #333;
+  font-weight: bold;
+  text-align: left;
+}
+
+.input-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.text-field {
+  flex: 1;
+  padding: 10px;
+  background-color: transparent;
+}
+
+.text-field-phone {
+  padding: 10px;
+  outline: none;
+  background-color: transparent;
+}
+
+.action-button {
+  margin-left: 10px;
+  padding: 6px 12px;
+  background-color: #f5f5f5;
+  color: #333;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+}
+
+.password-field {
+  padding: 10px;
+  margin-bottom: 15px;
+  outline: none;
+  background-color: transparent;
+}
+
+.confirm-password-field {
+  padding: 10px;
+  margin-bottom: 10px;
+  outline: none;
+  background-color: transparent;
+}
+
+.password-error {
+  color: red;
+  font-size: 12px;
+  margin-bottom: 15px;
+}
+
+.agreements-section {
+  width: 100%;
+  margin-top: 15px;
+  margin-bottom: 20px;
+  text-align: left;
+}
+
+.agreements-label {
+  font-weight: bold;
+  color: black;
+}
+
+.agreements-caption {
+  color: black;
+  margin-left: 35px;
+  margin-bottom: 10px;
+}
+
+.agreements-options {
+  margin-left: 35px;
+}
+
+.agreement-checkbox {
+  color: black;
+}
+
+.agreement-label {
+  color: black;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.policy-button {
+  font-size: 12px;
+  color: black;
+  text-decoration: underline;
+}
+
+.register-button {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  font-weight: bold;
+}
+
+.register-button.disabled {
+  background-color: lightgray;
+  color: white;
+}

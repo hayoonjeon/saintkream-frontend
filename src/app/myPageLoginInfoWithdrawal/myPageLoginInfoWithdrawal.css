@@ -1,0 +1,1113 @@
+.myPageLoginInfoWithdrawal body, .myPageLoginInfoWithdrawal button, .myPageLoginInfoWithdrawal dd, .myPageLoginInfoWithdrawal div, .myPageLoginInfoWithdrawal dl, .myPageLoginInfoWithdrawal dt, .myPageLoginInfoWithdrawal fieldset, .myPageLoginInfoWithdrawal figcaption, .myPageLoginInfoWithdrawal figure, .myPageLoginInfoWithdrawal form, .myPageLoginInfoWithdrawal h1, .myPageLoginInfoWithdrawal h2, .myPageLoginInfoWithdrawal h3, .myPageLoginInfoWithdrawal h4, .myPageLoginInfoWithdrawal h5, .myPageLoginInfoWithdrawal h6, .myPageLoginInfoWithdrawal input, .myPageLoginInfoWithdrawal legend, .myPageLoginInfoWithdrawal li, .myPageLoginInfoWithdrawal ol, .myPageLoginInfoWithdrawal p, .myPageLoginInfoWithdrawal select, .myPageLoginInfoWithdrawal table, .myPageLoginInfoWithdrawal td, .myPageLoginInfoWithdrawal textarea, .myPageLoginInfoWithdrawal th, .myPageLoginInfoWithdrawal ul {
+    margin: 0;
+    padding: 0;
+}
+
+.myPageLoginInfoWithdrawal .container.my{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+    padding: 40px 40px 100px;
+}
+
+.myPageLoginInfoWithdrawal .snb_area{
+    margin-right: 20px;
+    width: 180px;
+}
+
+.myPageLoginInfoWithdrawal .snb_main_title{
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -.15px;
+    line-height: 29px;
+    padding-bottom: 30px;
+}
+
+.myPageLoginInfoWithdrawal a {
+    -webkit-tap-highlight-color: rgba(0,0,0,.1);
+    color: inherit
+}
+
+.myPageLoginInfoWithdrawal a,.myPageLoginInfoWithdrawal a:active, .myPageLoginInfoWithdrawal a:focus, .myPageLoginInfoWithdrawal a:hover {
+    -webkit-text-decoration: none;
+    text-decoration: none
+}
+
+.myPageLoginInfoWithdrawal p {
+    display: block;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.myPageLoginInfoWithdrawal *, .myPageLoginInfoWithdrawal :after, .myPageLoginInfoWithdrawal :before {
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+    box-sizing: border-box
+}
+
+.myPageLoginInfoWithdrawal nav {
+    display: block;
+}
+
+.myPageLoginInfoWithdrawal body, .myPageLoginInfoWithdrawal button, .myPageLoginInfoWithdrawal input, .myPageLoginInfoWithdrawal select, .myPageLoginInfoWithdrawal table, .myPageLoginInfoWithdrawal textarea {
+    font-feature-settings: "frac" 0,"numr" 0;
+    color: #222;
+    font-family: Pretendard Variable, Pretendard, -apple-system, BlinkMacSystemFont, system-ui, 
+    Segoe UI, Roboto, Ubuntu, Cantarell, Noto Sans, sans-serif, Helvetica Neue, Apple SD Gothic Neo, 
+    Noto Sans KR, Malgun Gothic, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+}
+
+.myPageLoginInfoWithdrawal div {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.myPageLoginInfoWithdrawal .snb_title{
+    display: inline-block;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: -.27px;
+    line-height: 22px;
+    margin-bottom: 12px;
+    vertical-align: top;
+}
+
+.myPageLoginInfoWithdrawal li, .myPageLoginInfoWithdrawal ol, .myPageLoginInfoWithdrawal ul {
+    list-style: none;
+}
+
+.myPageLoginInfoWithdrawal ul {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 0px;
+    margin-block-end: 2em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    unicode-bidi: isolate;
+}
+
+.myPageLoginInfoWithdrawal li {
+    display: list-item;
+    text-align: inherit;
+    unicode-bidi: isolate;
+}
+
+.myPageLoginInfoWithdrawal .menu_link{
+    color: rgba(34, 34, 34, .5);
+    font-size: 15px;
+    letter-spacing: -.15px;
+    line-height: 18px;
+}
+
+.myPageLoginInfoWithdrawal .menu_item + .menu_item{
+    margin-top: 12px;
+}
+
+.myPageLoginInfoWithdrawal .container.my .snb_area + div{
+    flex: 1;
+}
+
+.myPageLoginInfoWithdrawal .content_area{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+
+.myPageLoginInfoWithdrawal .my-page-content{
+    flex: 1;
+}
+
+.myPageLoginInfoWithdrawal .lg .user_membership, .myPageLoginInfoWithdrawal .md .user_membership{
+    flex-direction: row;
+    padding: 24px;
+}
+
+.myPageLoginInfoWithdrawal .user_membership{
+    background-color: #fff;
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.myPageLoginInfoWithdrawal .lg .user_detail, .myPageLoginInfoWithdrawal .md .user_detail{
+    border-bottom: none;
+    padding: 0;
+}
+
+.myPageLoginInfoWithdrawal .user_detail{
+    border-bottom: 8px solid #f0f0f0;
+    display: flex;
+    flex: 1;
+    padding: 16px 24px;
+}
+
+.myPageLoginInfoWithdrawal .lg .user_thumb, .myPageLoginInfoWithdrawal .md .user_thumb{
+    height: 60px;
+    width: 60px;
+}
+
+.myPageLoginInfoWithdrawal .user_thumb{
+    border-radius: 50%;
+    flex-shrink: 0;
+    height: 90px;
+    margin-right: 12px;
+    position: relative;
+    width: 90px;
+}
+
+.myPageLoginInfoWithdrawal .user_thumb:after {
+    border: 1px solid rgba(34, 34, 34, .05);
+    border-radius: 50%;
+    bottom: 0;
+    content: "";
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.myPageLoginInfoWithdrawal .user_thumb .thumb_img{
+    border-radius: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 100%;
+}
+
+.myPageLoginInfoWithdrawal img, .myPageLoginInfoWithdrawal video {
+    -webkit-user-drag: none;
+    -webkit-touch-callout: none;
+    border: 0;
+    -moz-user-select: none !important;
+    user-select: none !important;
+    -webkit-user-select: none;
+    vertical-align: top;
+}
+
+.myPageLoginInfoWithdrawal img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+.myPageLoginInfoWithdrawal .lg .user_info, .myPageLoginInfoWithdrawal .md .user_info{
+    align-items: center;
+    flex-direction: row;
+}
+
+.myPageLoginInfoWithdrawal .user_info{
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.myPageLoginInfoWithdrawal .info_box{
+    flex: 1;
+}
+
+.myPageLoginInfoWithdrawal .user_info .email, .myPageLoginInfoWithdrawal .user_info .name{
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageLoginInfoWithdrawal .user_info .name{
+    color: #000;
+    display: flex;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: -.27px;
+    line-height: 21px;
+}
+
+.myPageLoginInfoWithdrawal .user_info .email{
+    color: rgba(34, 34, 34, .5);
+    font-size: 14px;
+    letter-spacing: -.21px;
+    letter-spacing: -.05px;
+    line-height: 18px;
+}
+
+.myPageLoginInfoWithdrawal .lg .info-buttons, .myPageLoginInfoWithdrawal .md .info-buttons{
+    padding-top: 0;
+}
+
+.myPageLoginInfoWithdrawal .info-buttons{
+    padding-top: 12px;
+}
+
+.myPageLoginInfoWithdrawal .btn{
+    align-items: center;
+    background-color: #fff;
+    color: rgba(34, 34, 34, .8);
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.myPageLoginInfoWithdrawal .outlinegrey{
+    border: 1px solid #d3d3d3;
+    color: rgba(34, 34, 34, .8);
+}
+
+.myPageLoginInfoWithdrawal .small{
+    border-radius: 10px;
+    font-size: 12px;
+    height: 34px;
+    letter-spacing: -.06px;
+    padding: 0 14px;
+}
+
+.myPageLoginInfoWithdrawal .btn{
+    align-items: center;
+    background-color: #fff;
+    color: rgba(34, 34, 34, .8);
+    cursor: pointer;
+    display: inline-flex;
+    justify-content: center;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.myPageLoginInfoWithdrawal .lg .shortcut-grid, .myPageLoginInfoWithdrawal .md .shortcut-grid{
+    border: 1px solid #ebebeb;
+    border-radius: 10px;
+    padding-bottom: 24px;
+    padding-top: 24px;
+    row-gap: 20px;
+}
+
+.myPageLoginInfoWithdrawal .lg .shortcut-grid{
+    grid-template-columns: repeat(6, minmax(0, 1fr));
+}
+
+.myPageLoginInfoWithdrawal .shortcut-grid{
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.myPageLoginInfoWithdrawal .my_home_title{
+    display: flex;
+    max-width: 100%;
+    padding-bottom: 0px;
+}
+
+.myPageLoginInfoWithdrawal .my_home_title .title{
+    font-size: 18px;
+    letter-spacing: -.27px;
+}
+
+.myPageLoginInfoWithdrawal .title{
+    font-size: 24px;
+    letter-spacing: -.36px;
+}
+
+.myPageLoginInfoWithdrawal .title{
+    color: rgba(34, 34, 34, .5);
+    font-size: 13px;
+    font-weight: 400;
+    letter-spacing: -.07px;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_tab{
+    background-color: #fafafa;
+    border-radius: 12px;
+    display: flex;
+    width: 100%;
+}
+
+.myPageLoginInfoWithdrawal .tab_item{
+    display: flex;
+    flex: 1;
+    text-align: center;
+}
+
+.myPageLoginInfoWithdrawal .tab_item.tab_on {
+    border-bottom: 2px solid #000; /* 활성화된 탭 */
+    font-weight: bold;
+}
+
+.myPageLoginInfoWithdrawal .tab_link{
+    display: block;
+    flex: 1;
+    padding-bottom: 14px;
+    padding-top: 14px;
+    position: relative;
+}
+
+@media (min-width: 961px) {
+    .myPageLoginInfoWithdrawal .tab_link{
+        padding-bottom: 18px;
+        padding-top: 18px;
+    }
+}
+
+.myPageLoginInfoWithdrawal dl {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+@media (min-width: 961px) {
+    .myPageLoginInfoWithdrawal .tab_link .title{
+        font-size: 13px;
+    }
+}
+
+.myPageLoginInfoWithdrawal .tab_link .title{
+    color: rgba(34, 34, 34, .8);
+    font-size: 12px;
+}
+
+.myPageLoginInfoWithdrawal dt {
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.myPageLoginInfoWithdrawal .tab_item.total .count{
+    color: #f15746;
+}
+
+@media (min-width: 961px) {
+    .myPageLoginInfoWithdrawal .tab_link .count{
+        font-size: 18px;
+    }
+}
+
+.myPageLoginInfoWithdrawal .tab_link .count{
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: -.09px;
+    line-height: 20px;
+    margin-top: 2px;
+}
+
+.myPageLoginInfoWithdrawal .tab_item:first-of-type .tab_link:before {
+    background-color: #ebebeb;
+    bottom: 18px;
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 1px;
+}
+
+.myPageLoginInfoWithdrawal .tab_link .hold{
+    color: #ff7500;
+    font-size: 12px;
+    letter-spacing: -.06px;
+    line-height: 19px;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_display_item{
+    align-items: center;
+    border-bottom: 1px solid #ebebeb;
+    cursor: pointer;
+    display: flex;
+    padding: 25px 25px 25px 0px;
+    position: relative;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_display_item .wish_delete{
+    position: absolute; /* 부모의 왼쪽 아래에 고정 */
+    right: 0; /* 왼쪽으로 정렬 */
+    bottom: 20px; /* 아래쪽으로 정렬 */
+    font-size: 12px; /* 적절한 크기로 조정 */
+    color: rgba(34, 34, 34, .8); /* 텍스트 색상 (선택 사항) */
+    padding: 0 3px; /* 텍스트 주위에 약간의 여백 추가 */
+    text-decoration: underline;
+    letter-spacing: -.06px;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_product{
+    display: flex;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_product .list_item_img_wrap{
+    position: relative;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_product .list_item_img_wrap .list_item_img{
+    border-radius: 12px;
+    height: 80px;
+    -o-object-fit: cover;
+    object-fit: cover;
+    width: 80px;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_product .list_item_title_wrap{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    margin-left: 16px;
+    width: 100%;
+    align-items: flex-start;
+    row-gap: 13px;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_product .list_item_title_wrap .list_item_price{
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_product .list_item_title_wrap .list_item_title{
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    font-size: 14px;
+    line-height: 17px;
+    margin-top: -10px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_product .list_item_title_wrap .list_item_description{
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    color: rgba(34, 34, 34, .5);
+    display: -webkit-box;
+    font-size: 14px;
+    font-weight: 450;
+    letter-spacing: -.21px;
+    letter-spacing: -.5px;
+    line-height: 19px;
+    margin-top: -5px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageLoginInfoWithdrawal .list_item_status{
+    align-items: center;
+    display: flex;
+    margin-left: auto;
+    text-align: right;
+}
+
+.myPageLoginInfoWithdrawal .list_item_column p {
+    margin: 2.5px 0;
+}
+
+.myPageLoginInfoWithdrawal .list_item_status .column_secondary{
+    font-size: 13px;
+    letter-spacing: -.07px;
+}
+
+.myPageLoginInfoWithdrawal .list_item_status .list_item_column{
+    margin-left: 10px;
+    width: 134px;
+}
+
+.myPageLoginInfoWithdrawal .list_item_status .column_last{
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.myPageLoginInfoWithdrawal .list_item_status .list_item_column{
+    margin-left: 10px;
+    width: 134px;
+}
+
+.myPageLoginInfoWithdrawal .list_item_status .column_last .last_title{
+    font-size: 14px;
+    letter-spacing: -.21px;
+}
+
+.myPageLoginInfoWithdrawal .list_item_status .column_last .last_description.action_named_action{
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+}
+
+.myPageLoginInfoWithdrawal .list_item_status .column_last .last_description{
+    font-size: 14px;
+    letter-spacing: -.06px;
+    overflow: hidden;
+    word-break: keep-all;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_tab.inventory .tab_item.total .count, .myPageLoginInfoWithdrawal .purchase_list_tab.sell .tab_item.total .count{
+    color: #31b46e;
+}
+
+.myPageLoginInfoWithdrawal .my_home_title .btn_more{
+    align-items: center;
+    display: inline-flex;
+    flex-shrink: 0;
+    margin-left: auto;
+    padding-left: 5px;
+}
+
+.myPageLoginInfoWithdrawal .interest_product{
+    margin: 0 -10px;
+}
+
+.myPageLoginInfoWithdrawal .product_item{
+    display: inline-block;
+    margin: 20px 0;
+    padding: 0 12px;
+    position: relative;
+    vertical-align: top;
+    width: 25%;
+}
+
+.myPageLoginInfoWithdrawal .product_item .item_inner{
+    background-color: #fff;
+    border-radius: 12px;
+    display: block;
+}
+
+.myPageLoginInfoWithdrawal .product{
+    border-radius: 8px;
+    overflow: hidden;
+    padding-top: 100%;
+    position: relative;
+}
+
+.myPageLoginInfoWithdrawal .detail_stock .product_img, .myPageLoginInfoWithdrawal .is_exclusive .product_img, .myPageLoginInfoWithdrawal .lucky_draw_column .product_img, .myPageLoginInfoWithdrawal .other_stock .product_img, .myPageLoginInfoWithdrawal .product_img, .myPageLoginInfoWithdrawal .stock .product_img{
+    height: auto;
+    width: 100%;
+}
+
+.myPageLoginInfoWithdrawal .product_img{
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.myPageLoginInfoWithdrawal .picture{
+    border: none;
+    display: flex;
+}
+
+.myPageLoginInfoWithdrawal .image.full_width{
+    height: 100%;
+    width: 100%;
+}
+
+.myPageLoginInfoWithdrawal .image{
+    image-rendering: auto;
+    -o-object-fit: cover;
+    object-fit: cover;
+}
+
+.myPageLoginInfoWithdrawal .product_item .btn_wish{
+    bottom: 3px;
+    display: inline-flex;
+    padding: 5px;
+    position: absolute;
+    right: 3px;
+    z-index: 1;
+}
+
+.myPageLoginInfoWithdrawal .btn_wish{
+    display: flex;
+    height: inherit;
+}
+
+[role=button] {
+    cursor: pointer;
+}
+
+[class*=ico-] {
+    height: 24px;
+    width: 24px;
+}
+
+.myPageLoginInfoWithdrawal .product_item .info_box{
+    padding: 9px 4px 0;
+}
+
+.myPageLoginInfoWithdrawal .brand-text {
+    align-items: center;
+    color: #222;
+    display: inline-flex;
+    font-size: 18px;
+    font-weight: 700;
+    height: 17px;
+    line-height: 20px;
+    margin-bottom: 2px;
+}
+
+.myPageLoginInfoWithdrawal .brand-text > .brand-name {
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageLoginInfoWithdrawal .product_item .price{
+    padding-top: 12px;
+}
+
+.myPageLoginInfoWithdrawal .product_item .amount{
+    font-size: 0;
+    line-height: 0;
+}
+
+.myPageLoginInfoWithdrawal .product_item .discount_rate, .myPageLoginInfoWithdrawal .product_item .num, .myPageLoginInfoWithdrawal .product_item .won{
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: -.04px;
+    line-height: 17px;
+    vertical-align: top;
+}
+
+.myPageLoginInfoWithdrawal .display_paragraph.line_break_by_truncating_tail {
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    display: -webkit-box;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.myPageLoginInfoWithdrawal .text-lookup.bold{
+    font-weight: 700;
+}
+
+.myPageLoginInfoWithdrawal address, .myPageLoginInfoWithdrawal em {
+    font-style: normal;
+}
+
+.myPageLoginInfoWithdrawal .product_item .desc{
+    color: rgba(34, 34, 34, .5);
+    font-size: 11px;
+    line-height: 13px;
+    margin-top: 2px;
+}
+
+.myPageLoginInfoWithdrawal .content_title{
+    display: flex;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_tab.detail_tab{
+    background-color: #fff;
+    border-radius: 0;
+    margin-top: 20px;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_tab.detail_tab .tab_link{
+    border-bottom: 1px solid #ebebeb;
+    height: 80px;
+    padding-top: 12px;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_tab.detail_tab .tab_box{
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_tab.detail_tab .tab_on .title{
+    color: #222;
+    font-weight: 700;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_tab.detail_tab .title{
+    color: rgba(34, 34, 34, .5);
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_tab.detail_tab .tab_on .count{
+    color: #31b46e;
+}
+
+.myPageLoginInfoWithdrawal .purchase_list_tab.detail_tab .count{
+    font-size: 20px;
+    letter-spacing: -.1px;
+    line-height: 24px;
+    margin-top: 0;
+}
+
+.myPageLoginInfoWithdrawal .title>h3{
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.myPageLoginInfoWithdrawal .main_title>h3{
+    font-size: 24px;
+    line-height: 29px;
+}
+
+.myPageLoginInfoWithdrawal .before_purchase_confirmation{
+    font-size: 12px;
+    color: #BFBFBF;
+
+}
+
+.myPageLoginInfoWithdrawal .after_purchase_confirmation{
+    font-size: 12px;
+    color: #BFBFBF;
+}
+
+.myPageLoginInfoWithdrawal .content_title.border{
+    border-bottom: 3px solid #222;
+    padding-bottom: 16px;
+}
+
+.myPageLoginInfoWithdrawal .saved-chips-container{
+    padding: 12px 0;
+}
+
+.myPageLoginInfoWithdrawal .filter_chip_group.bubble{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px 8px;
+    position: relative;
+}
+
+.myPageLoginInfoWithdrawal .blind, .myPageLoginInfoWithdrawal .u_skip {
+    clip: rect(0, 0, 0, 0) !important;
+    height: 1px !important;
+    margin: -1px !important;
+    overflow: hidden !important;
+    position: absolute !important;
+    width: 1px !important;
+}
+
+.myPageLoginInfoWithdrawal input, .myPageLoginInfoWithdrawal textarea {
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    outline: 0;
+    padding: 0;
+    resize: none;
+}
+
+.myPageLoginInfoWithdrawal .filter_button.line{
+    align-items: center;
+    background-color: #fff;
+    border: 1px solid #f0f0f0;
+    border-radius: 30px;
+    color: #4e4e4e;
+    display: flex;
+    flex-direction: row;
+    font-size: 13px;
+    font-weight: 600;
+    height: 30px;
+    padding: 0 8px;
+}
+
+.myPageLoginInfoWithdrawal .filter_button.line.active{
+    background-color: #222;
+    border: none;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: none;
+}
+
+.myPageLoginInfoWithdrawal .filter_button{
+    cursor: pointer;
+    position: relative;
+}
+
+.myPageLoginInfoWithdrawal button{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    background: none;
+    background-color: transparent;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    padding: 0;
+}
+
+.myPageLoginInfoWithdrawal .filter_button .text-group{
+    padding: 0 4px;
+}
+
+.myPageLoginInfoWithdrawal .filter_button .num{
+    display: none;
+}
+
+.myPageLoginInfoWithdrawal .content-header{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 20px;
+}
+
+.myPageLoginInfoWithdrawal .total-rows{
+    color: rgba(34, 34, 34, .8);
+    font-size: 13px;
+    letter-spacing: -.07px;
+}
+
+.myPageLoginInfoWithdrawal .profile_group.first{
+    padding-top: 0 !important;
+}
+
+.myPageLoginInfoWithdrawal .profile_info{
+    max-width: 480px;
+    padding-top: 38px;
+}
+
+.myPageLoginInfoWithdrawal .profile_group{
+    padding-top: 48px;
+}
+
+
+.myPageLoginInfoWithdrawal .lg .profile_group, .myPageLoginInfoWithdrawal .md .profile_group{
+    padding-top: 58px;
+}
+
+.myPageLoginInfoWithdrawal .group_title{
+    font-size: 18px;
+    letter-spacing: -.27px;
+}
+
+.myPageLoginInfoWithdrawal .unit{
+    border-bottom: 1px solid #ebebeb;
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0 12px;
+    position: relative;
+}
+
+.myPageLoginInfoWithdrawal .unit_content{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.myPageLoginInfoWithdrawal .desc{
+    flex: 1;
+    font-size: 16px;
+    letter-spacing: -.16px;
+    overflow: hidden;
+    padding-bottom: 8px;
+    padding-top: 8px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.myPageLoginInfoWithdrawal .btn_modify{
+    position: absolute;
+    right: 0;
+}
+
+.myPageLoginInfoWithdrawal .my-profile__term-desc{
+    line-height: 1;
+    padding-bottom: 0;
+    padding-top: 0;
+}
+
+.myPageLoginInfoWithdrawal .my-profile__term-desc>span{
+    display: block;
+    margin-bottom: 2px;
+}
+
+.myPageLoginInfoWithdrawal .desc [type=button]{
+    color: #909090;
+    font-size: 12px;
+    font-weight: 400;
+    text-decoration-line: underline;
+}
+
+.myPageLoginInfoWithdrawal .base-switch{
+    background-color: var(--75b83bce);
+    border-radius: 15.5px;
+    cursor: pointer;
+    height: 31px;
+    position: relative;
+    width: 51px;
+}
+
+.myPageLoginInfoWithdrawal .base-switch.is-active{
+    background-color: var(--6d656928);
+}
+
+.myPageLoginInfoWithdrawal .base-switch .circle{
+    background-color: var(--30d0adec);
+    border-radius: 50%;
+    height: 27px;
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translate(2px, -50%);
+    width: 27px;
+}
+
+.myPageLoginInfoWithdrawal .base-switch.is-active .circle{
+    transform: translate(22px, -50%);
+}
+
+.myPageLoginInfoWithdrawal .base-switch .circle, .myPageLoginInfoWithdrawal .base-switch{
+    transition: all .3s cubic-bezier(.4,0,.2,1) !important;
+}
+
+.myPageLoginInfoWithdrawal .btn_withdrawal, .myPageLoginInfoWithdrawal .btn_withdrawal:hover {
+    -webkit-text-decoration: underline;
+    text-decoration: underline;
+}
+
+.myPageLoginInfoWithdrawal .btn_withdrawal{
+    color: rgba(34, 34, 34, .5);
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: -.07px;
+    margin-top: 55px;
+    padding: 5px 0;
+}
+
+.myPageLoginInfoWithdrawal .lg .withdrawal_wrap, .myPageLoginInfoWithdrawal .md .withdrawal_wrap{
+    padding-top: 40px;
+}
+
+.myPageLoginInfoWithdrawal .withdrawal_title{
+    font-size: 18px;
+    letter-spacing: -.27px;
+}
+
+.myPageLoginInfoWithdrawal .withdrawal_terms{
+    border: 1px solid #d3d3d3;
+    margin-top: 20px;
+    padding: 24px;
+}
+
+.myPageLoginInfoWithdrawal .terms_title{
+    font-size: 16px;
+    letter-spacing: -.16px;
+}
+
+.myPageLoginInfoWithdrawal .checkbox_item{
+    font-size: 0;
+    position: relative;
+}
+
+.myPageLoginInfoWithdrawal .checkbox_item .check_label{
+    display: inline-block;
+    position: relative;
+}
+
+.myPageLoginInfoWithdrawal .checkbox_item .check_label_on{
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+}
+
+.myPageLoginInfoWithdrawal .withdrawal_wrap .label_txt{
+    font-size: 16px;
+    letter-spacing: -.16px;
+}
+
+.myPageLoginInfoWithdrawal .checkbox_item .label_txt{
+    display: inline-block;
+    font-size: 13px;
+    letter-spacing: -.07px;
+    line-height: 24px;
+    vertical-align: top;
+}
+
+.myPageLoginInfoWithdrawal .checkbox_item .label_txt_on{
+    display: inline-block;
+    font-size: 15px;
+    letter-spacing: -.07px;
+    line-height: 24px;
+    vertical-align: top;
+    padding-left: 10px;
+}
+
+.myPageLoginInfoWithdrawal .terms_detail{
+    padding-top: 16px;
+}
+
+.myPageLoginInfoWithdrawal .terms_item{
+    color: #333;
+    padding-left: 12px;
+    position: relative;
+    word-break: keep-all;
+}
+
+.myPageLoginInfoWithdrawal .terms_item:before {
+    background-color: #222;
+    border-radius: 100%;
+    content: "";
+    height: 4px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 4px;
+}
+
+.myPageLoginInfoWithdrawal .terms_item, .myPageLoginInfoWithdrawal .terms_subtitle{
+    font-size: 15px;
+    letter-spacing: -.15px;
+}
+
+.myPageLoginInfoWithdrawal .terms_item+.terms_item{
+    margin-top: 8px;
+}
+
+.myPageLoginInfoWithdrawal .terms_box+.terms_box{
+    margin-top: 40px;
+}
+
+.myPageLoginInfoWithdrawal .terms_subtitle{
+    font-weight: 600;
+    padding-bottom: 8px;
+}
+
+.myPageLoginInfoWithdrawal .withdrawal_check{
+    margin-top: 20px;
+}
+
+.myPageLoginInfoWithdrawal .withdrawal_btn_box{
+    padding-top: 40px;
+    text-align: center;
+}
+
+.myPageLoginInfoWithdrawal .withdrawal_btn_box .btn{
+    width: 120px;
+}
+
+.myPageLoginInfoWithdrawal .medium{
+    height: 42px;
+    letter-spacing: -.14px;
+    padding: 0 18px;
+}
+
+.myPageLoginInfoWithdrawal .large.mobile, .myPageLoginInfoWithdrawal .medium{
+    border-radius: 10px;
+    font-size: 14px;
+}
+
+.myPageLoginInfoWithdrawal .withdrawal_btn_box .btn+.btn{
+    margin-left: 8px;
+}
+
+.myPageLoginInfoWithdrawal .withdrawal_btn_box .btn{
+    width: 120px;
+}
+
+.myPageLoginInfoWithdrawal .solid{
+    background-color: #222;
+    color: #fff;
+    font-weight: 700;
+}
+
+.myPageLoginInfoWithdrawal .terms_list{
+    margin-block-end: 0em !important;
+}

@@ -1,0 +1,33 @@
+.main_list_container {
+  margin-top: 30px;
+  width: 1280px; /* 컨테이너 너비 */
+  border: 1px solid #fff;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr); /* 5개의 열로 고정 */
+  gap: 16px; /* 카드 간의 간격 */
+  justify-content: center; /* 카드 간격 중앙 정렬 */
+}
+
+@media (max-width: 1280px) {
+  .main_list_container {
+    grid-template-columns: repeat(4, 1fr); /* 해상도가 줄어들면 4개 */
+  }
+}
+
+@media (max-width: 960px) {
+  .main_list_container {
+    grid-template-columns: repeat(3, 1fr); /* 더 작은 해상도에서는 3개 */
+  }
+}
+
+@media (max-width: 660px) {
+  .main_list_container {
+    grid-template-columns: repeat(2, 1fr); /* 모바일에서는 2개 */
+  }
+}
+
+@media (max-width: 480px) {
+  .main_list_container {
+    grid-template-columns: 1fr; /* 가장 작은 해상도에서는 1개 */
+  }
+}

@@ -1,0 +1,113 @@
+.filter_buttons_container {
+  display: inline;
+  height: 70px;
+}
+
+.filter-button {
+  margin: 40px 10px 50px 10px;
+  display: inline-block;
+  padding: 7px 14px;
+  border: 1px solid #ccc;
+  border-radius: 20px;
+  background-color: #fff;
+  color: gray;
+  font-size: 14px;
+  font-family: Pretendard Variable;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.filter-button:hover {
+  background-color: lightgray;
+  color: #fff;
+  border-color: lightgray;
+}
+
+.filter-button.active {
+  background-color: lightgray;
+  color: #fff;
+  border-color: lightgray;
+}
+
+/* 670px 이하일 때 스타일 */
+@media screen and (max-width: 870px) {
+  .filter_buttons_container {
+    display: flex;
+    flex-wrap: wrap;
+    /* 버튼들이 줄바꿈되도록 설정 */
+    justify-content: center;
+    /* 버튼을 중앙 정렬 */
+  }
+
+  .filter-button {
+    margin: 10px 4px;
+    /* 작은 화면에 맞는 여백 설정 */
+    width: auto;
+    height: 30px;
+    /* 버튼 크기를 유동적으로 설정 */
+    text-align: center;
+    padding: 5px 12px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+    font-size: 12px;
+
+  }
+
+  /* '|' 기호 숨기기 */
+  .filter_buttons_container span {
+    display: none;
+  }
+}
+
+.custom-checkbox-container {
+  display: flex;
+  justify-content: flex-start; /* 왼쪽 정렬 */
+  align-items: center; /* 세로 정렬 */
+  max-width: 1280px; /* 최대 폭 설정 */
+  width: 100%; /* 부모 요소에 맞춤 */
+  margin: 0 auto; /* 중앙 정렬 */
+  padding-left: 20px; /* 체크박스와 화면 사이에 여백 추가 */
+}
+
+.custom-checkbox {
+  display: flex;
+  align-items: center; /* 세로 정렬 */
+  font-size: 14px;
+  color: #333;
+  margin-top: 20px;
+}
+
+.custom-checkbox svg {
+  width: 20px;
+  margin-top: 0; /* 불필요한 위쪽 여백 제거 */
+  cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"] {
+  display: none; /* 기본 체크박스 숨기기 */
+}
+
+.custom-checkbox span {
+  margin-left: 8px;
+  cursor: pointer;
+}
+
+.custom-checkbox input[type="checkbox"]+span::before {
+  content: "";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  border: 2px solid #ccc;
+  border-radius: 15px;
+  transition: background-color 0.3s ease, border-color 0.3s ease;
+  margin-right: 8px;
+  vertical-align: middle;
+}
+
+.custom-checkbox input[type="checkbox"]:checked+span::before {
+  background-color: black;
+  border: 3.5px solid lightgray;
+  width: 16px;
+  height: 16px;
+}

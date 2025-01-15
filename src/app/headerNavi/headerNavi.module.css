@@ -1,0 +1,71 @@
+/* 전체 네비게이션 영역 */
+.header_navi {
+  display: flex;
+  justify-content: center; /* 중앙 정렬 */
+  padding: 10px 20px; /* 상하좌우 여백 */
+  background-color: #fff; /* 연한 배경색 */
+  box-sizing: border-box;
+}
+
+/* 네비게이션 내부 */
+.navi_inner {
+  display: flex;
+  justify-content: center;
+  width: 100%; /* 내부 컨텐츠 넓이 */
+  height: 22px;
+}
+
+/* 네비게이션 리스트 */
+.navi_list {
+  display: flex;
+  list-style: none; /* 불릿 제거 */
+  margin: 0;
+  padding: 0;
+  gap: 35px; /* 항목 간 간격을 10px로 설정 */
+  height: 34px;
+}
+
+/* 네비게이션 아이템 */
+.navi_item {
+  font-size: 14px;
+  display: inline-block; /* 각 항목을 개별적인 박스로 설정 */
+  padding-bottom: 15px; /* 하단 여백을 추가하여 경계선과 구분 */
+  position: relative; /* 하단 밑줄을 절대 위치로 추가하기 위해 */
+}
+
+/* 링크 스타일 */
+.navi_link {
+  text-decoration: none; /* 밑줄 제거 */
+  color: #555; /* 기본 텍스트 색상 */
+  font-weight: 500;
+  transition: color 0.3s ease; /* 색상 전환 */
+}
+
+/* 링크 마우스 오버 효과 */
+.navi_item:hover .navi_link {
+  color: #222; /* 진한 텍스트 색상 */
+  font-weight: bold; /* 강조 */
+}
+
+/* hover 시 네비게이션 항목 하단에 경계선 추가 */
+.navi_item::after {
+  content: ''; /* 가상의 요소 */
+  position: absolute;
+  bottom: 0; /* 하단에 위치 */
+  left: -18px; /* 왼쪽으로 10px 이동 */
+  right: -18px; /* 오른쪽으로 10px 이동 */
+  height: 2px; /* 밑줄의 두께 */
+  background-color: transparent; /* 기본적으로 투명 */
+  transition: background-color 0.4s ease; /* 밑줄 색상 변화 부드럽게 */
+}
+
+/* hover 시 밑줄 색상 변경 */
+.navi_item:hover::after {
+  height: 2px !important;
+  background-color: black; /* hover 시 밑줄 색상 변경 */
+}
+
+/* '.selected' 클래스가 추가된 항목에 밑줄 스타일 적용 */
+.navi_item.selected::after {
+  background-color: black; /* 활성화된 항목 밑줄 색상 */
+}
